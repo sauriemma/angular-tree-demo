@@ -1,0 +1,2717 @@
+{
+  "guid": "root________",
+  "title": "",
+  "index": 0,
+  "dateAdded": 1337125958322000,
+  "lastModified": 1337126022985000,
+  "id": 1,
+  "type": "text/x-moz-place-container",
+  "root": "placesRoot",
+  "children": [
+    {
+      "guid": "menu________",
+      "title": "Bookmarks Menu",
+      "index": 0,
+      "dateAdded": 1337125958322000,
+      "lastModified": 1455715414181000,
+      "id": 2,
+      "type": "text/x-moz-place-container",
+      "root": "bookmarksMenuFolder",
+      "children": [
+        {
+          "guid": "yGtMe3JCgrgj",
+          "title": "Recently Bookmarked",
+          "index": 0,
+          "dateAdded": 1410544270105000,
+          "lastModified": 1410544270105000,
+          "id": 3083,
+          "annos": [
+            {
+              "name": "Places/SmartBookmark",
+              "flags": 0,
+              "expires": 4,
+              "value": "RecentlyBookmarked"
+            }
+          ],
+          "type": "text/x-moz-place",
+          "uri": "place:folder=BOOKMARKS_MENU&folder=UNFILED_BOOKMARKS&folder=TOOLBAR&queryType=1&sort=12&maxResults=10&excludeQueries=1"
+        },
+        {
+          "guid": "k5P-cKoedS9W",
+          "title": "Recent Tags",
+          "index": 1,
+          "dateAdded": 1410544270106000,
+          "lastModified": 1410544270106000,
+          "id": 3084,
+          "annos": [
+            {
+              "name": "Places/SmartBookmark",
+              "flags": 0,
+              "expires": 4,
+              "value": "RecentTags"
+            }
+          ],
+          "type": "text/x-moz-place",
+          "uri": "place:type=6&sort=14&maxResults=10"
+        },
+        {
+          "guid": "XpCLjJUOuImU",
+          "title": "Get Bookmark Add-ons",
+          "index": 2,
+          "dateAdded": 1331825086000000,
+          "lastModified": 1331825086000000,
+          "id": 1505,
+          "iconuri": "https://addons.cdn.mozilla.net/static/img/favicon.ico",
+          "type": "text/x-moz-place",
+          "uri": "https://addons.mozilla.org/en-US/firefox/bookmarks/"
+        },
+        {
+          "guid": "iScfRp1AM1v4",
+          "index": 3,
+          "dateAdded": 1399552587158000,
+          "lastModified": 1399552587158000,
+          "id": 1506,
+          "type": "text/x-moz-place-separator"
+        },
+        {
+          "guid": "0fp1aodoZQX0",
+          "title": "Web App Development",
+          "index": 8,
+          "dateAdded": 1383769423000000,
+          "lastModified": 1453652487717000,
+          "id": 2871,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "f2SM9O0GeRRz",
+              "title": "JavaScript",
+              "index": 0,
+              "dateAdded": 1383769444000000,
+              "lastModified": 1385060193000000,
+              "id": 2872,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "TLXfo73JdTb5",
+                  "title": "Superhero.js",
+                  "index": 0,
+                  "dateAdded": 1383769409000000,
+                  "lastModified": 1383769409000000,
+                  "id": 2873,
+                  "charset": "UTF-8",
+                  "iconuri": "http://superherojs.com/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://superherojs.com/"
+                },
+                {
+                  "guid": "Z6vC3c3rNVA1",
+                  "title": "Play Framework - Build Modern & Scalable Web Apps with Java and Scala",
+                  "index": 1,
+                  "dateAdded": 1383769464000000,
+                  "lastModified": 1383769464000000,
+                  "id": 2874,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.playframework.com/assets/images/favicon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.playframework.com/"
+                },
+                {
+                  "guid": "hZfWFaOkWopc",
+                  "title": "Knockout : Home",
+                  "index": 2,
+                  "dateAdded": 1383769475000000,
+                  "lastModified": 1383769475000000,
+                  "id": 2875,
+                  "charset": "UTF-8",
+                  "iconuri": "http://knockoutjs.com/img/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://knockoutjs.com/"
+                }
+              ]
+            },
+            {
+              "guid": "62u9DqY3pNDG",
+              "title": "Database",
+              "index": 1,
+              "dateAdded": 1405429763033000,
+              "lastModified": 1410818285213000,
+              "id": 3051,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "lyLxAWO62KTM",
+                  "title": "MySQL",
+                  "index": 0,
+                  "dateAdded": 1405429791809000,
+                  "lastModified": 1410818285224000,
+                  "id": 3052,
+                  "type": "text/x-moz-place-container",
+                  "children": [
+                    {
+                      "guid": "itfSBlweDOhn",
+                      "title": "MySQL :: MySQL 5.1 Reference Manual :: 13.2.6 LOAD DATA INFILE Syntax",
+                      "index": 0,
+                      "dateAdded": 1405429752721000,
+                      "lastModified": 1405429752731000,
+                      "id": 3050,
+                      "charset": "UTF-8",
+                      "iconuri": "http://dev.mysql.com/common/themes/sakila/favicon.ico",
+                      "type": "text/x-moz-place",
+                      "uri": "http://dev.mysql.com/doc/refman/5.1/en/load-data.html"
+                    },
+                    {
+                      "guid": "ZAdPhu57v3bU",
+                      "title": "MySQL :: MySQL Connector/J Developer Guide",
+                      "index": 1,
+                      "dateAdded": 1405445492484000,
+                      "lastModified": 1405445492489000,
+                      "id": 3054,
+                      "charset": "UTF-8",
+                      "iconuri": "http://dev.mysql.com/common/themes/sakila/favicon.ico",
+                      "type": "text/x-moz-place",
+                      "uri": "http://dev.mysql.com/doc/connector-j/en/index.html"
+                    }
+                  ]
+                },
+                {
+                  "guid": "AcoZdkAkXzXs",
+                  "title": "CouchDB",
+                  "index": 1,
+                  "dateAdded": 1393331395000000,
+                  "lastModified": 1405427777759000,
+                  "id": 2906,
+                  "type": "text/x-moz-place-container",
+                  "children": [
+                    {
+                      "guid": "ktbdf_JohA-u",
+                      "title": "2.2. Installation on Windows — Apache CouchDB 1.6 Documentation",
+                      "index": 0,
+                      "dateAdded": 1393331384000000,
+                      "lastModified": 1393331384000000,
+                      "id": 2907,
+                      "charset": "UTF-8",
+                      "iconuri": "http://docs.couchdb.org/en/latest/_static/favicon.ico",
+                      "type": "text/x-moz-place",
+                      "uri": "http://docs.couchdb.org/en/latest/install/windows.html"
+                    },
+                    {
+                      "guid": "KsNwHrpadKMI",
+                      "title": "CouchDB Getting Started",
+                      "index": 1,
+                      "dateAdded": 1393331442000000,
+                      "lastModified": 1393331449000000,
+                      "id": 2908,
+                      "charset": "UTF-8",
+                      "type": "text/x-moz-place",
+                      "uri": "http://guide.couchdb.org/draft/tour.html"
+                    },
+                    {
+                      "guid": "Jdse4iGmincS",
+                      "title": "Couchdb Wiki - HTTP_Bulk_Document_API",
+                      "index": 2,
+                      "dateAdded": 1395876370000000,
+                      "lastModified": 1395876397000000,
+                      "id": 3001,
+                      "charset": "UTF-8",
+                      "iconuri": "https://wiki.apache.org/favicon.ico",
+                      "type": "text/x-moz-place",
+                      "uri": "https://wiki.apache.org/couchdb/HTTP_Bulk_Document_API"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "guid": "5zBF4REWLVO9",
+              "title": "Dojo",
+              "index": 2,
+              "dateAdded": 1383780194000000,
+              "lastModified": 1429126999082000,
+              "id": 2876,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "r7Ton_Ws1XGO",
+                  "title": "Help - IBM® ILOG® JViews Enterprise V8.8",
+                  "index": 0,
+                  "dateAdded": 1397133792000000,
+                  "lastModified": 1397133793000000,
+                  "id": 2877,
+                  "charset": "UTF-8",
+                  "iconuri": "http://pic.dhe.ibm.com/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://pic.dhe.ibm.com/infocenter/jviewent/v8r8/index.jsp?topic=%2Fcom.ibm.ilog.jviews.dojo.diagrammer.doc%2FContent%2FVisualization%2FDocumentation%2FDojo%2FDojo_Diagrammer%2F_pubskel%2Fps_dojo_diagrammer.html"
+                },
+                {
+                  "guid": "JxrhIj1yHue5",
+                  "title": "The Dojo Toolkit - Demos Index",
+                  "index": 1,
+                  "dateAdded": 1397429324000000,
+                  "lastModified": 1397429324000000,
+                  "id": 3027,
+                  "charset": "UTF-8",
+                  "iconuri": "http://dojotoolkit.org/images/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://demos.dojotoolkit.org/demos/"
+                },
+                {
+                  "guid": "tPN_1S-dq_JH",
+                  "title": "Create interactive diagrams for web pages with the Dojo Diagrammer",
+                  "index": 2,
+                  "dateAdded": 1426169872209000,
+                  "lastModified": 1426169872230000,
+                  "id": 3205,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.ibm.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "IBM ILOG Dojo Diagrammer is a set of components and services for creating interactive diagram displays for the web. These step-by step instructions take you through using it to create a web application that displays an organization chart, as an example. You will use IBM Rational Application Developer and the IBM WebSphere Application Server Feature Pack for Web 2.0 and Mobile, which includes the Dojo Diagrammer."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.ibm.com/developerworks/rational/library/interactive-diagrams-dojo-diagrammer/"
+                }
+              ]
+            },
+            {
+              "guid": "qxaRjRUSAQ5q",
+              "title": "GridX",
+              "index": 3,
+              "dateAdded": 1375465414000000,
+              "lastModified": 1389640837000000,
+              "id": 2878,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "p6xFLayZWwAW",
+                  "title": "GridX - The next generation of dojo enhanced data grid.",
+                  "index": 0,
+                  "dateAdded": 1375465396000000,
+                  "lastModified": 1375465397000000,
+                  "id": 2879,
+                  "charset": "ISO-8859-1",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "GridX is the next generation of dojo grid(datagrid). It provides well modularized and plugin architecture."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://oria.github.io/gridx/"
+                },
+                {
+                  "guid": "FH4M4WbYf4nU",
+                  "title": "GridX - Demo Gallery",
+                  "index": 1,
+                  "dateAdded": 1383495134000000,
+                  "lastModified": 1383495153000000,
+                  "id": 2880,
+                  "charset": "ISO-8859-1",
+                  "type": "text/x-moz-place",
+                  "uri": "http://oria.github.io/gridx/gallery.html"
+                },
+                {
+                  "guid": "j_Ao7NGd-rpW",
+                  "title": "Home · oria/gridx Wiki · GitHub",
+                  "index": 2,
+                  "dateAdded": 1375465510000000,
+                  "lastModified": 1375465510000000,
+                  "id": 2881,
+                  "charset": "UTF-8",
+                  "iconuri": "https://assets-cdn.github.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "gridx - Experiments & prototypes for new dojo grid"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "https://github.com/oria/gridx/wiki"
+                },
+                {
+                  "guid": "UuHb9-_ItnYZ",
+                  "title": "Issues · oria/gridx · GitHub",
+                  "index": 3,
+                  "dateAdded": 1375465892000000,
+                  "lastModified": 1375465892000000,
+                  "id": 2882,
+                  "charset": "UTF-8",
+                  "iconuri": "https://github.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "gridx - Experiments & prototypes for new dojo grid"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "https://github.com/oria/gridx/issues"
+                },
+                {
+                  "guid": "PZyNC_oPGttv",
+                  "title": "Index of Gidx Nightly Builds /nightly/ibmjs/idx/gridx",
+                  "index": 4,
+                  "dateAdded": 1384475786000000,
+                  "lastModified": 1384475836000000,
+                  "id": 2883,
+                  "charset": "UTF-8",
+                  "type": "text/x-moz-place",
+                  "uri": "http://idx.ibm.com/nightly/ibmjs/idx/gridx/"
+                },
+                {
+                  "guid": "Wze-DempjM9n",
+                  "title": "IBM Extensions Toolkit Website",
+                  "index": 5,
+                  "dateAdded": 1384476422000000,
+                  "lastModified": 1384476422000000,
+                  "id": 2884,
+                  "charset": "UTF-8",
+                  "type": "text/x-moz-place",
+                  "uri": "http://idx.ibm.com/v1.4/#/widgetref/gridx/widgetOverviewTab"
+                },
+                {
+                  "guid": "AJtbo64t3C_I",
+                  "title": "Grid Playground",
+                  "index": 6,
+                  "dateAdded": 1388154854000000,
+                  "lastModified": 1388154854000000,
+                  "id": 2885,
+                  "charset": "UTF-8",
+                  "type": "text/x-moz-place",
+                  "uri": "http://oria.github.io/gridx/gridx/tests/demo/playground.html"
+                }
+              ]
+            },
+            {
+              "guid": "oGhIF3-dyanC",
+              "title": "GitHub",
+              "index": 4,
+              "dateAdded": 1419338751413000,
+              "lastModified": 1422462671130000,
+              "id": 3146,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "Jl2nY8cXbiDN",
+                  "title": "Release Initial release · apimanagement/drupalportal · GitHub",
+                  "index": 0,
+                  "dateAdded": 1419338741378000,
+                  "lastModified": 1419338741384000,
+                  "id": 3145,
+                  "charset": "UTF-8",
+                  "iconuri": "https://assets-cdn.github.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "drupalportal - Drupal CMS APIM Developer Portal"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "https://github.com/apimanagement/drupalportal/releases/tag/v3040"
+                },
+                {
+                  "guid": "fB7ikeluo5pp",
+                  "title": "IBM @ Github",
+                  "index": 1,
+                  "dateAdded": 1421364678512000,
+                  "lastModified": 1421364678516000,
+                  "id": 3152,
+                  "charset": "UTF-8",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": ""
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://ibm.github.io/"
+                }
+              ]
+            },
+            {
+              "guid": "iWzGezHWvNE8",
+              "title": "Mobile",
+              "index": 5,
+              "dateAdded": 1383664134000000,
+              "lastModified": 1395088049000000,
+              "id": 2886,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "FrlUFVegUcOl",
+                  "title": "Worklight",
+                  "index": 0,
+                  "dateAdded": 1383664148000000,
+                  "lastModified": 1384094660000000,
+                  "id": 2887,
+                  "type": "text/x-moz-place-container",
+                  "children": [
+                    {
+                      "guid": "ggKjJdwHBk_a",
+                      "title": "Get started with IBM Worklight V6.0 setup and usage",
+                      "index": 0,
+                      "dateAdded": 1383664123000000,
+                      "lastModified": 1383664123000000,
+                      "id": 2888,
+                      "charset": "UTF-8",
+                      "iconuri": "http://www.ibm.com/favicon.ico",
+                      "annos": [
+                        {
+                          "name": "bookmarkProperties/description",
+                          "flags": 0,
+                          "expires": 4,
+                          "value": "Get step-by-step guidance on how to set up and start using the current version of IBM Worklight, V6.0, in our self-paced tutorials, exercises, and sample code. Worklight is an Eclipse-based visual development and server platform for mobile apps. Using Worklight and popular open technologies, you can build, test, deploy, and manage your smartphone and tablet apps for iOS, Android, Blackberry, and Windows Phone devices, with maximum code reuse and per-device optimization."
+                        }
+                      ],
+                      "type": "text/x-moz-place",
+                      "uri": "http://www.ibm.com/developerworks/mobile/worklight/getting-started.html"
+                    },
+                    {
+                      "guid": "VQgRAcAo9saI",
+                      "title": "Install IBM Worklight Developer Edition V6.0",
+                      "index": 1,
+                      "dateAdded": 1383664182000000,
+                      "lastModified": 1383664182000000,
+                      "id": 2889,
+                      "charset": "UTF-8",
+                      "iconuri": "http://www.ibm.com/favicon.ico",
+                      "annos": [
+                        {
+                          "name": "bookmarkProperties/description",
+                          "flags": 0,
+                          "expires": 4,
+                          "value": "Install IBM Worklight Developer Edition V6.0."
+                        }
+                      ],
+                      "type": "text/x-moz-place",
+                      "uri": "http://www.ibm.com/developerworks/mobile/worklight/download/install.html"
+                    }
+                  ]
+                },
+                {
+                  "guid": "4bYM0ffcVrTe",
+                  "title": "Android",
+                  "index": 1,
+                  "dateAdded": 1383501549000000,
+                  "lastModified": 1391208084000000,
+                  "id": 2890,
+                  "type": "text/x-moz-place-container",
+                  "children": [
+                    {
+                      "guid": "781BM_tDpNW1",
+                      "title": "ADT Plugin | Android Developers",
+                      "index": 0,
+                      "dateAdded": 1383501535000000,
+                      "lastModified": 1383501535000000,
+                      "id": 2891,
+                      "charset": "UTF-8",
+                      "iconuri": "http://developer.android.com/favicon.ico",
+                      "type": "text/x-moz-place",
+                      "uri": "http://developer.android.com/tools/sdk/eclipse-adt.html"
+                    },
+                    {
+                      "guid": "_pEes6jT_zhb",
+                      "title": "UI Overview | Android Developers",
+                      "index": 1,
+                      "dateAdded": 1383758025000000,
+                      "lastModified": 1383758025000000,
+                      "id": 2892,
+                      "charset": "UTF-8",
+                      "iconuri": "file:///C:/Program%20Files%20(x86)/Android/android-sdk/docs/favicon.ico",
+                      "type": "text/x-moz-place",
+                      "uri": "file:///C:/Program%20Files%20(x86)/Android/android-sdk/docs/design/get-started/ui-overview.html"
+                    },
+                    {
+                      "guid": "mBk6CzyzEyP6",
+                      "title": "Android Development Tutorial - YouTube",
+                      "index": 2,
+                      "dateAdded": 1384263262000000,
+                      "lastModified": 1384263262000000,
+                      "id": 2893,
+                      "charset": "UTF-8",
+                      "iconuri": "http://s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png",
+                      "annos": [
+                        {
+                          "name": "bookmarkProperties/description",
+                          "flags": 0,
+                          "expires": 4,
+                          "value": "Get the Code & Transcript: http://goo.gl/T6Mls In this first part of my Android Development Tutorial I'm going to describe almost every file and folder used ..."
+                        }
+                      ],
+                      "type": "text/x-moz-place",
+                      "uri": "http://www.youtube.com/watch?v=Z149x12sXsw&list=PLGLfVvz_LVvQUjiCc8lUT9aO0GsWA4uNe"
+                    },
+                    {
+                      "guid": "GzuC9ZDEik8Y",
+                      "title": "Android User Session Management using Shared Preferences",
+                      "index": 3,
+                      "dateAdded": 1384263299000000,
+                      "lastModified": 1384263299000000,
+                      "id": 2894,
+                      "charset": "UTF-8",
+                      "iconuri": "http://www.androidhive.info/wp-content/themes/androidhive_v2_analytics/img/favicon.ico",
+                      "annos": [
+                        {
+                          "name": "bookmarkProperties/description",
+                          "flags": 0,
+                          "expires": 4,
+                          "value": "Tutorial about maintaining user sessions in your android application. Session is implemented using application shared preferences."
+                        }
+                      ],
+                      "type": "text/x-moz-place",
+                      "uri": "http://www.androidhive.info/2012/08/android-session-management-using-shared-preferences/"
+                    },
+                    {
+                      "guid": "a6ChJKsDc_0c",
+                      "title": "Download Galaxy Note III (Note 3) Stock Wallpapers Here",
+                      "index": 4,
+                      "dateAdded": 1384472842000000,
+                      "lastModified": 1384472842000000,
+                      "id": 2895,
+                      "charset": "UTF-8",
+                      "iconuri": "http://androidcentral.us/wp-content/uploads/2013/08/Android_Central_favicon.jpg",
+                      "annos": [
+                        {
+                          "name": "bookmarkProperties/description",
+                          "flags": 0,
+                          "expires": 4,
+                          "value": "Looking for Stock Wallpapers of Samsung Galaxy Note III? Absolutely on the right place, Download all the Offical Stock Android Wallpapers of Galaxy Note 3."
+                        }
+                      ],
+                      "type": "text/x-moz-place",
+                      "uri": "http://androidcentral.us/2013/09/galaxy-note-3-stock-wallpapers/"
+                    },
+                    {
+                      "guid": "X3ujnZAuisaT",
+                      "title": "Doctor on Demand - Android Apps on Google Play",
+                      "index": 5,
+                      "dateAdded": 1388880219000000,
+                      "lastModified": 1388880219000000,
+                      "id": 2896,
+                      "charset": "UTF-8",
+                      "iconuri": "https://ssl.gstatic.com/android/market_images/web/favicon.ico",
+                      "annos": [
+                        {
+                          "name": "bookmarkProperties/description",
+                          "flags": 0,
+                          "expires": 4,
+                          "value": "Talk to a real, US-licensed physician immediately!  Use audio only or video to connect to a doctor and ask a medical question.  Great for non-emergency issues like mil..."
+                        }
+                      ],
+                      "type": "text/x-moz-place",
+                      "uri": "https://play.google.com/store/apps/details?id=com.doctorondemand.android.patient&hl=en"
+                    }
+                  ]
+                },
+                {
+                  "guid": "XA2225eUXOXg",
+                  "title": "Dojo Mobile Samples",
+                  "index": 2,
+                  "dateAdded": 1384094628000000,
+                  "lastModified": 1384094647000000,
+                  "id": 2897,
+                  "charset": "UTF-8",
+                  "iconuri": "http://demos.dojotoolkit.org/demos/mobileGallery/images/MobileShow_Fav_16.png",
+                  "type": "text/x-moz-place",
+                  "uri": "http://demos.dojotoolkit.org/demos/mobileGallery/demo-iphone.html"
+                },
+                {
+                  "guid": "0ZMyxpwZBdm7",
+                  "title": "Demos | jQuery Mobile",
+                  "index": 3,
+                  "dateAdded": 1389640834000000,
+                  "lastModified": 1389640834000000,
+                  "id": 2898,
+                  "charset": "UTF-8",
+                  "iconuri": "http://jquerymobile.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "jQuery: The Write Less, Do More, JavaScript Library"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://jquerymobile.com/demos/"
+                },
+                {
+                  "guid": "vVJ4m6dJg67P",
+                  "title": "Apache Cordova",
+                  "index": 4,
+                  "dateAdded": 1392741773000000,
+                  "lastModified": 1392741774000000,
+                  "id": 2899,
+                  "charset": "UTF-8",
+                  "iconuri": "http://cordova.apache.org/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://cordova.apache.org/"
+                }
+              ]
+            },
+            {
+              "guid": "R4vhYnW8nAdY",
+              "title": "IBM Design",
+              "index": 6,
+              "dateAdded": 1384553930000000,
+              "lastModified": 1401805337019000,
+              "id": 2900,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "dXMQbMj656vf",
+                  "title": "IBM Design",
+                  "index": 0,
+                  "dateAdded": 1342026688000000,
+                  "lastModified": 1342026688000000,
+                  "id": 2901,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.ibm.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "Links to sections that describe IBM design principles and guidelines, the user experience design services we provide, the books we've written, and the registration form for our studies."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www-01.ibm.com/software/ucd/index.html"
+                },
+                {
+                  "guid": "aBnYqjyH5mEu",
+                  "title": "IBM Design - IBM One UI",
+                  "index": 1,
+                  "dateAdded": 1344288901000000,
+                  "lastModified": 1344288933000000,
+                  "id": 2902,
+                  "charset": "ISO-8859-1",
+                  "type": "text/x-moz-place",
+                  "uri": "http://uxd.torolab.ibm.com/uxd/uxd_oneui.jsp?site=ibmoneui&top=x1&left=y37&vsub=*&hsub=*&options=F"
+                },
+                {
+                  "guid": "lVsJFW85iVKs",
+                  "title": "IBM IDX Toolkit Website",
+                  "index": 2,
+                  "dateAdded": 1384476543000000,
+                  "lastModified": 1401805061663000,
+                  "id": 3026,
+                  "type": "text/x-moz-place",
+                  "uri": "http://idx.ibm.com/v1.4/"
+                }
+              ]
+            },
+            {
+              "guid": "zof0tqKGdVZ0",
+              "title": "IBM Social Buisiness Toolkit - and - Connection",
+              "index": 7,
+              "dateAdded": 1385060215000000,
+              "lastModified": 1388880231000000,
+              "id": 2903,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "xIi_sphSORcm",
+                  "title": "IBM Social Business Development wiki : IBM Connections 4.5 API Documentation",
+                  "index": 0,
+                  "dateAdded": 1385060184000000,
+                  "lastModified": 1385060184000000,
+                  "id": 2904,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.ibm.com/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://www-10.lotus.com/ldd/appdevwiki.nsf/xpDocViewer.xsp?lookupName=IBM+Connections+4.5+API+Documentation#action=openDocument&content=catcontent&ct=prodDoc"
+                },
+                {
+                  "guid": "paY7QMTMJV8w",
+                  "title": "IBM Social Business Development wiki : IBM Social Business Toolkit SDK documentation : Installing the SDK",
+                  "index": 1,
+                  "dateAdded": 1385062764000000,
+                  "lastModified": 1385062764000000,
+                  "id": 2905,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.ibm.com/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://www-10.lotus.com/ldd/appdevwiki.nsf/xpDocViewer.xsp?lookupName=IBM+Social+Business+Toolkit+SDK+documentation#action=openDocument&res_title=Installing_the_SDK_SDK1.0&content=pdcontent"
+                }
+              ]
+            },
+            {
+              "guid": "ciKDUUpzGkqA",
+              "title": "Samples",
+              "index": 8,
+              "dateAdded": 1405378145840000,
+              "lastModified": 1419335304259000,
+              "id": 3047,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "RVQzITyp1w1h",
+                  "title": "A very simple Java web applications using JSP, JSF and connected to MySQL, an open source database",
+                  "index": 0,
+                  "dateAdded": 1405378123516000,
+                  "lastModified": 1405378123531000,
+                  "id": 3046,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.javaguicodexample.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "A step-by-step tutorial in developing a Java visual web applications with an open source MySQL database"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.javaguicodexample.com/javawebmysqljspjstljsf5.html"
+                },
+                {
+                  "guid": "zWWcHn_nqVOc",
+                  "title": "Build an Ajax application with the Dojo Toolkit",
+                  "index": 1,
+                  "dateAdded": 1405427441719000,
+                  "lastModified": 1405427441763000,
+                  "id": 3049,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.ibm.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "The Dojo toolkit is a JavaScript library that makes the process of building large JavaScript-based Rich Internet Applications (RIAs) much simpler. With a wide range of features, from DOM querying and manipulation, Asynchronous JavaScript and XML (Ajax) request handling, excellent object-orientation support, and a full user interface widget library (Dijit), Dojo is an excellent library to use to build a dynamic and interactive web application. In this tutorial, learn about many of the concepts of Dojo and the Dijit widget library through the development of a fully featured sample application, a contact manager system. This application lets a user browse, create, edit, and remove contacts (and contact groups) from a MySQL database. PHP is used on the server side to communicate with the database, with Dojo and the Dijit component library providing a rich, Ajax-powered user interface. The final result is a powerful web application that you can use as a foundation for your own RIAs."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.ibm.com/developerworks/web/tutorials/wa-dojotoolkit/"
+                },
+                {
+                  "guid": "E-bmQMXvgG3g",
+                  "title": "jQuery AJAX request and response example - Java Servlets, MySQL and JSON",
+                  "index": 2,
+                  "dateAdded": 1405431013297000,
+                  "lastModified": 1405431013340000,
+                  "id": 3053,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.mysamplecode.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "jQuery AJAX request and response example - Java Servlets, MySQL and JSON"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.mysamplecode.com/2012/04/jquery-ajax-request-response-java.html"
+                },
+                {
+                  "guid": "_6X4ZlXbvryZ",
+                  "title": "Apache Tomcat Examples",
+                  "index": 3,
+                  "dateAdded": 1405381339124000,
+                  "lastModified": 1405381339126000,
+                  "id": 3048,
+                  "charset": "UTF-8",
+                  "iconuri": "http://localhost:8080/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:8080/examples/"
+                },
+                {
+                  "guid": "bAot2MmvB28o",
+                  "title": "http://localhost:8080/test/test.html",
+                  "index": 4,
+                  "dateAdded": 1405521354147000,
+                  "lastModified": 1405521354152000,
+                  "id": 3055,
+                  "charset": "windows-1252",
+                  "iconuri": "http://localhost:8080/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:8080/test/test.html"
+                },
+                {
+                  "guid": "UzZHcWA7J0WG",
+                  "title": "Demo Mail Application",
+                  "index": 5,
+                  "dateAdded": 1416871922819000,
+                  "lastModified": 1416871922825000,
+                  "id": 3130,
+                  "charset": "windows-1252",
+                  "iconuri": "http://localhost:8080/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": ""
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:8080/js/dojo/demos/mail/demo.html"
+                },
+                {
+                  "guid": "wfa-orKyuirx",
+                  "title": "Calendar Sample: Desktop",
+                  "index": 6,
+                  "dateAdded": 1416872142144000,
+                  "lastModified": 1416872142150000,
+                  "id": 3131,
+                  "charset": "UTF-8",
+                  "iconuri": "http://localhost:8080/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": ""
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:8080/js/dojo/demos/calendar/demo.html"
+                },
+                {
+                  "guid": "nbAH4pQeFYUd",
+                  "title": "ToDo App",
+                  "index": 7,
+                  "dateAdded": 1416872249791000,
+                  "lastModified": 1416872249808000,
+                  "id": 3132,
+                  "charset": "windows-1252",
+                  "iconuri": "http://localhost:8080/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": ""
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:8080/js/dojo/demos/todoApp/demo.html#details,EditTodoItem"
+                },
+                {
+                  "guid": "dSyPhsaesTr2",
+                  "title": "dojox.form.FileUploader",
+                  "index": 8,
+                  "dateAdded": 1416872367281000,
+                  "lastModified": 1416872377614000,
+                  "id": 3133,
+                  "charset": "windows-1252",
+                  "iconuri": "http://localhost:8080/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": ""
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:8080/js/dojo/demos/uploader/demo.html"
+                },
+                {
+                  "guid": "09iXxp_y3DLT",
+                  "title": "EnhancedGrid All in One Demo",
+                  "index": 9,
+                  "dateAdded": 1416872500759000,
+                  "lastModified": 1416872500767000,
+                  "id": 3134,
+                  "charset": "UTF-8",
+                  "iconuri": "http://localhost:8080/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": ""
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:8080/js/dojo/demos/grid/demo.html"
+                },
+                {
+                  "guid": "hm49XWq1leP1",
+                  "title": "dijit.Editor Demo",
+                  "index": 10,
+                  "dateAdded": 1416872559975000,
+                  "lastModified": 1416872559981000,
+                  "id": 3135,
+                  "charset": "UTF-8",
+                  "iconuri": "http://localhost:8080/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": ""
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:8080/js/dojo/demos/editor/demo.html"
+                }
+              ]
+            },
+            {
+              "guid": "Y6FnMXOQfad4",
+              "title": "Tools",
+              "index": 9,
+              "dateAdded": 1426164666659000,
+              "lastModified": 1428355566407000,
+              "id": 3204,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "J_zk2__4jRZA",
+                  "title": "JavaScript Lab - Tools - JS Regex Generator",
+                  "index": 0,
+                  "dateAdded": 1426164648462000,
+                  "lastModified": 1426164648467000,
+                  "id": 3203,
+                  "charset": "windows-1252",
+                  "iconuri": "http://www.jslab.dk/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "JavaScript Regular Expression Generator"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.jslab.dk/tools.regex.php"
+                }
+              ]
+            },
+            {
+              "guid": "Sy5iGT_0RbHe",
+              "title": "Testing",
+              "index": 10,
+              "dateAdded": 1387551550000000,
+              "lastModified": 1415370205944000,
+              "id": 2909,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "Mw8pUGPWwiVD",
+                  "title": "EasyMock 3.2 Readme",
+                  "index": 0,
+                  "dateAdded": 1387551530000000,
+                  "lastModified": 1387551530000000,
+                  "id": 2910,
+                  "charset": "UTF-8",
+                  "iconuri": "http://easymock.org/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://easymock.org/EasyMock3_2_Documentation.html"
+                },
+                {
+                  "guid": "HX_v2e_NpB2j",
+                  "title": "Dojo Intern FAQ: How can I run Dojo tests locally with Intern? | Blog | SitePen",
+                  "index": 1,
+                  "dateAdded": 1405372804066000,
+                  "lastModified": 1405372846197000,
+                  "id": 3045,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.sitepen.com/images/favicon.png",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "SitePen's dgrid project leverages the AMD loader and other features new since Dojo 1.7 to minimize the load and rendering times of dynamic grids in web app"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.sitepen.com/blog/2014/04/23/dojo-faq-how-can-i-run-dojo-tests-locally-with-intern/"
+                },
+                {
+                  "guid": "yqk6XyFEzNHh",
+                  "title": "Home · theintern/intern Wiki · GitHub",
+                  "index": 2,
+                  "dateAdded": 1402664882230000,
+                  "lastModified": 1402664882234000,
+                  "id": 3034,
+                  "charset": "UTF-8",
+                  "iconuri": "https://assets-cdn.github.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "intern - A next-generation code testing stack for JavaScript."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "https://github.com/theintern/intern/wiki"
+                },
+                {
+                  "guid": "5RLaNPbcO06B",
+                  "title": "Pure CSS multiline text with ellipsis - CodePen",
+                  "index": 3,
+                  "dateAdded": 1412368685436000,
+                  "lastModified": 1412368685461000,
+                  "id": 3096,
+                  "charset": "UTF-8",
+                  "iconuri": "http://codepen.io/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "..."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://codepen.io/martinwolf/pen/qlFdp"
+                },
+                {
+                  "guid": "XYAA4K2Quoeb",
+                  "title": "Freedom Scientific Downloads: Products",
+                  "index": 4,
+                  "dateAdded": 1412011202594000,
+                  "lastModified": 1412011202818000,
+                  "id": 3092,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.freedomscientific.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": ""
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.freedomscientific.com/Downloads/ProductDemos/Index"
+                },
+                {
+                  "guid": "C29Q2TwYKMTD",
+                  "title": "JAWS Keystrokes",
+                  "index": 5,
+                  "dateAdded": 1412794806209000,
+                  "lastModified": 1412794806589000,
+                  "id": 3098,
+                  "charset": "windows-1252",
+                  "iconuri": "http://www.freedomscientific.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "Keystrokes for JAWS screen reader for desktop layout, laptop layout, Internet Explorer, Firefox, and general Windows commands are here in HTML and PDF format."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.freedomscientific.com/content/html/jawshq/Jaws-Keystrokes.html"
+                },
+                {
+                  "guid": "lfHHdDF0IghP",
+                  "title": "W3C - WAI-ARIA Best Practices",
+                  "index": 6,
+                  "dateAdded": 1412856975378000,
+                  "lastModified": 1412857004048000,
+                  "id": 3099,
+                  "charset": "UTF-8",
+                  "iconuri": "http://www.w3.org/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.w3.org/TR/2009/WD-wai-aria-practices-20090224/"
+                }
+              ]
+            },
+            {
+              "guid": "k6cdqNgHTv7S",
+              "title": "Training",
+              "index": 11,
+              "dateAdded": 1421688930645000,
+              "lastModified": 1453492005711000,
+              "id": 3157,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "pJgZGBNGZTLi",
+                  "title": "Create a sample web project using Maven ( Eclipse and Tomcat )- Automatic - YouTube",
+                  "index": 0,
+                  "dateAdded": 1421688920149000,
+                  "lastModified": 1421688920275000,
+                  "id": 3156,
+                  "charset": "UTF-8",
+                  "iconuri": "https://s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "Do you want to say thank you ??? Buy me Coffee through Paypal https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XZ3YB9B3RWAB2 Thanks in ad..."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.youtube.com/watch?v=YeC7XQho-O0"
+                },
+                {
+                  "guid": "_JIMiNHOI1pm",
+                  "title": "udemy.com courses",
+                  "index": 1,
+                  "dateAdded": 1424287350996000,
+                  "lastModified": 1424287443049000,
+                  "id": 3187,
+                  "charset": "UTF-8",
+                  "iconuri": "https://www.udemy.com/favicon-new-32x32.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "Courses about 'jquery'"
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.udemy.com/courses/search/?q=jquery"
+                },
+                {
+                  "guid": "Tm4eh5kIBPLV",
+                  "title": "Codecademy | Learn AngularJS",
+                  "index": 2,
+                  "dateAdded": 1448972473562000,
+                  "lastModified": 1448972509656000,
+                  "id": 3317,
+                  "charset": "UTF-8",
+                  "iconuri": "https://cdn-production.codecademy.com/favicon.ico",
+                  "annos": [
+                    {
+                      "name": "bookmarkProperties/description",
+                      "flags": 0,
+                      "expires": 4,
+                      "value": "Codecademy is the easiest way to learn how to code. It's interactive, fun, and you can do it with your friends."
+                    }
+                  ],
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.codecademy.com/learn/learn-angularjs"
+                }
+              ]
+            },
+            {
+              "guid": "h9U4KEHhFOBe",
+              "title": "Eclipse Marketplace - Liberty Profile - IBM WebSphere Application Server V8.5 Liberty Profile Developer Tools | Eclipse Plugins, Bundles and Products",
+              "index": 12,
+              "dateAdded": 1345234062000000,
+              "lastModified": 1384546078000000,
+              "id": 2911,
+              "charset": "UTF-8",
+              "iconuri": "http://marketplace.eclipse.org/sites/all/themes/omega_nova/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "http://marketplace.eclipse.org/node/131353"
+            },
+            {
+              "guid": "eS9H2GHLcdF3",
+              "title": "Jazz Foundation - Products - Jazz Community Site",
+              "index": 13,
+              "dateAdded": 1384821839000000,
+              "lastModified": 1384821839000000,
+              "id": 2912,
+              "charset": "UTF-8",
+              "iconuri": "https://jazz.net/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "The"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://jazz.net/products/jazz-foundation/"
+            },
+            {
+              "guid": "9QvqZV4g1AIL",
+              "title": "Plugin Features for GWT - Google Plugin for Eclipse — Google Developers",
+              "index": 14,
+              "dateAdded": 1387292931000000,
+              "lastModified": 1387292931000000,
+              "id": 2913,
+              "charset": "UTF-8",
+              "iconuri": "https://developers.google.com/_static/ad0a374452/images/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "https://developers.google.com/eclipse/docs/gwt"
+            },
+            {
+              "guid": "2u_6apmMNc-5",
+              "title": "Apache JDO - Home",
+              "index": 15,
+              "dateAdded": 1395613711000000,
+              "lastModified": 1395613724000000,
+              "id": 2914,
+              "charset": "UTF-8",
+              "iconuri": "http://db.apache.org/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "http://db.apache.org/jdo/"
+            },
+            {
+              "guid": "h4l0C-WhfPrF",
+              "title": "Apache Derby",
+              "index": 16,
+              "dateAdded": 1395613740000000,
+              "lastModified": 1395613740000000,
+              "id": 2915,
+              "charset": "UTF-8",
+              "iconuri": "http://db.apache.org/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "http://db.apache.org/derby/"
+            },
+            {
+              "guid": "MFrvg9KZNrlj",
+              "title": "Apache Cordova",
+              "index": 17,
+              "dateAdded": 1395614155000000,
+              "lastModified": 1395614155000000,
+              "id": 2916,
+              "charset": "UTF-8",
+              "iconuri": "https://cordova.apache.org/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "https://cordova.apache.org/"
+            },
+            {
+              "guid": "VO3zlmMokfMm",
+              "title": "Ultimate CSS Gradient Generator - ColorZilla.com",
+              "index": 18,
+              "dateAdded": 1395667198000000,
+              "lastModified": 1395667198000000,
+              "id": 2917,
+              "charset": "windows-1252",
+              "iconuri": "http://www.colorzilla.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "A powerful Photoshop-like CSS gradient editor"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.colorzilla.com/gradient-editor/"
+            },
+            {
+              "guid": "GV6I1LEWhXH6",
+              "title": "What is OpenStack? | opensource.com",
+              "index": 19,
+              "dateAdded": 1399896114537000,
+              "lastModified": 1399896114542000,
+              "id": 3006,
+              "charset": "UTF-8",
+              "iconuri": "http://opensource.com/sites/default/files/sitetheme_favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "OpenStack is a set of software tools for building and managing cloud computing platforms for public and private clouds."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://opensource.com/resources/what-is-openstack"
+            },
+            {
+              "guid": "GeipDNk54ZIX",
+              "title": "Apache TomEE & OpenEJB",
+              "index": 20,
+              "dateAdded": 1412965942435000,
+              "lastModified": 1412965942461000,
+              "id": 3100,
+              "charset": "UTF-8",
+              "iconuri": "http://tomee.apache.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Apache TomEE"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://tomee.apache.org/downloads.html"
+            },
+            {
+              "guid": "VXoxrYAcSruw",
+              "title": "Maven – Maven in 5 Minutes",
+              "index": 21,
+              "dateAdded": 1413803223562000,
+              "lastModified": 1413803223844000,
+              "id": 3104,
+              "charset": "UTF-8",
+              "iconuri": "http://maven.apache.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html"
+            },
+            {
+              "guid": "R33Qy-yHa95O",
+              "title": "Best Practices for a Faster Web App with HTML5 - HTML5 Rocks",
+              "index": 22,
+              "dateAdded": 1414106844250000,
+              "lastModified": 1414106844267000,
+              "id": 3107,
+              "charset": "UTF-8",
+              "iconuri": "http://www.html5rocks.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "How to effectively use features from HTML5 to improve the performance and responsiveness of your app."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.html5rocks.com/en/tutorials/speed/quick/"
+            },
+            {
+              "guid": "-kdN6pGW0aS_",
+              "title": "node.js",
+              "index": 23,
+              "dateAdded": 1414111344002000,
+              "lastModified": 1414111344022000,
+              "id": 3108,
+              "charset": "UTF-8",
+              "iconuri": "http://nodejs.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://nodejs.org/download/"
+            },
+            {
+              "guid": "0lZ-YnyQPb3d",
+              "title": "Hoodie - Very fast web app development",
+              "index": 24,
+              "dateAdded": 1414111355143000,
+              "lastModified": 1414111355176000,
+              "id": 3109,
+              "charset": "UTF-8",
+              "iconuri": "http://hood.ie/dist/favicons/favicon-32x32.png",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Hoodie - Very fast web app development"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://hood.ie/#intro"
+            },
+            {
+              "guid": "L0hfh_-4yO9b",
+              "title": "AngularJS — Superheroic JavaScript MVW Framework",
+              "index": 25,
+              "dateAdded": 1415378763122000,
+              "lastModified": 1415378763142000,
+              "id": 3118,
+              "charset": "UTF-8",
+              "iconuri": "https://angularjs.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "AngularJS is what HTML would have been, had it been designed for building web-apps.\n                 Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great\n                 testability story all implemented with pure client-side JavaScript!"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://angularjs.org/"
+            },
+            {
+              "guid": "inaY8TlnlQfP",
+              "title": "Apache jclouds® :: Chef: Getting Started Guide",
+              "index": 26,
+              "dateAdded": 1416519931426000,
+              "lastModified": 1416519931444000,
+              "id": 3126,
+              "charset": "UTF-8",
+              "iconuri": "https://jclouds.apache.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://jclouds.apache.org/guides/chef/"
+            },
+            {
+              "guid": "ng_bMeLQAYFp",
+              "title": "Drupal - Open Source CMS | Drupal.org",
+              "index": 27,
+              "dateAdded": 1417625018464000,
+              "lastModified": 1417625018726000,
+              "id": 3140,
+              "charset": "UTF-8",
+              "iconuri": "https://www.drupal.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://www.drupal.org/"
+            },
+            {
+              "guid": "5BC89u83EBqM",
+              "title": "Swagger 2.0",
+              "index": 28,
+              "dateAdded": 1419335298428000,
+              "lastModified": 1419335298450000,
+              "id": 3144,
+              "charset": "UTF-8",
+              "iconuri": "http://swagger.io/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://swagger.io/"
+            },
+            {
+              "guid": "9MIpxrlghJQ2",
+              "title": "OpenLayers 3 - Welcome",
+              "index": 29,
+              "dateAdded": 1419379507461000,
+              "lastModified": 1419379507479000,
+              "id": 3147,
+              "charset": "UTF-8",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://openlayers.org/"
+            },
+            {
+              "guid": "tlKGXiIEfQJU",
+              "title": "AngularJS: API: API Reference",
+              "index": 30,
+              "dateAdded": 1421675105036000,
+              "lastModified": 1421675105252000,
+              "id": 3155,
+              "charset": "UTF-8",
+              "iconuri": "https://docs.angularjs.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "AngularJS is what HTML would have been, had it been designed for building web-apps.\n                 Declarative templates with data-binding, MVC, dependency injection and great\n                 testability story all implemented with pure client-side JavaScript!"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://docs.angularjs.org/api?PHPSESSID=cae8e98e7ca559b4605d75c813b358ee"
+            },
+            {
+              "guid": "z7mdeFTqT1MZ",
+              "title": "AngularJS Fundamentals In 60-ish Minutes - YouTube",
+              "index": 31,
+              "dateAdded": 1421689293066000,
+              "lastModified": 1421689293129000,
+              "id": 3158,
+              "charset": "UTF-8",
+              "iconuri": "https://s.ytimg.com/yts/img/favicon_32-vflWoMFGx.png",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "If you like the AngularJS in 60-ish Minutes video you'll love the new AngularJS JumpStart video training course. Check it out at http://tinyurl.com/AngularJS..."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://www.youtube.com/watch?v=i9MHigUZKEM"
+            },
+            {
+              "guid": "BK2ZsDftjnst",
+              "title": "atom/atom · GitHub",
+              "index": 32,
+              "dateAdded": 1423171763573000,
+              "lastModified": 1423171763589000,
+              "id": 3174,
+              "charset": "UTF-8",
+              "iconuri": "https://assets-cdn.github.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "atom - The hackable editor"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/atom/atom"
+            },
+            {
+              "guid": "ZY4DTfbjnd-D",
+              "title": "Node-RED",
+              "index": 33,
+              "dateAdded": 1425490055465000,
+              "lastModified": 1425490055585000,
+              "id": 3192,
+              "charset": "UTF-8",
+              "iconuri": "http://nodered.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://nodered.org/"
+            },
+            {
+              "guid": "PK65PTg2841X",
+              "title": "Kibana User Guide [4.0]",
+              "index": 34,
+              "dateAdded": 1425996725743000,
+              "lastModified": 1425996725788000,
+              "id": 3196,
+              "charset": "UTF-8",
+              "iconuri": "http://www.elastic.co/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.elasticsearch.org/guide/en/kibana/current/"
+            },
+            {
+              "guid": "v6ig1-xWnxH8",
+              "title": "Apache Solr ",
+              "index": 35,
+              "dateAdded": 1426176552257000,
+              "lastModified": 1426176557996000,
+              "id": 3207,
+              "charset": "UTF-8",
+              "iconuri": "http://lucene.apache.org/solr/assets/images/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://lucene.apache.org/solr/"
+            },
+            {
+              "guid": "c7HrCA545tiD",
+              "title": "Getting started · Bootstrap",
+              "index": 36,
+              "dateAdded": 1426186527949000,
+              "lastModified": 1426186527967000,
+              "id": 3208,
+              "charset": "UTF-8",
+              "iconuri": "http://getbootstrap.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://getbootstrap.com/getting-started/"
+            },
+            {
+              "guid": "QnqITWO98d-L",
+              "title": "Highcharts - Interactive JavaScript charts for your webpage",
+              "index": 37,
+              "dateAdded": 1426187023682000,
+              "lastModified": 1426187415788000,
+              "id": 3209,
+              "charset": "UTF-8",
+              "iconuri": "http://www.highcharts.com/favicon-32x32.png",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Highcharts - Interactive JavaScript charts for your web pages."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.highcharts.com/"
+            },
+            {
+              "guid": "4OJeW4eJJyiz",
+              "title": "Elastic - Kibana Powering Data Search, Log Analysis, Analytics",
+              "index": 38,
+              "dateAdded": 1426176458193000,
+              "lastModified": 1426176506631000,
+              "id": 3206,
+              "charset": "UTF-8",
+              "iconuri": "https://www.elastic.co/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Elastic provides open source and commercial solutions designed to search, analyze, and visualize data. Explore Elastic's end-to-end data platform."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://www.elastic.co/products"
+            },
+            {
+              "guid": "LZ9pN3SmDOA8",
+              "title": "RelativeWave - Form",
+              "index": 39,
+              "dateAdded": 1430141544858000,
+              "lastModified": 1430141544881000,
+              "id": 3240,
+              "charset": "UTF-8",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.relativewave.com/form/"
+            },
+            {
+              "guid": "jXU33sk9_J2z",
+              "title": "LoopBack",
+              "index": 40,
+              "dateAdded": 1430514737640000,
+              "lastModified": 1430514737667000,
+              "id": 3247,
+              "charset": "UTF-8",
+              "iconuri": "http://loopback.io/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://loopback.io/"
+            },
+            {
+              "guid": "kYUXsPGVAB50",
+              "title": "LumX - AngularJS",
+              "index": 41,
+              "dateAdded": 1430519443258000,
+              "lastModified": 1430519460316000,
+              "id": 3255,
+              "charset": "UTF-8",
+              "iconuri": "http://ui.lumapps.com/favicon.png",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://ui.lumapps.com/"
+            },
+            {
+              "guid": "jHGz0LGt3UCu",
+              "title": "jQuery UI Demos | jQuery UI",
+              "index": 42,
+              "dateAdded": 1430834240840000,
+              "lastModified": 1430834240856000,
+              "id": 3263,
+              "charset": "UTF-8",
+              "iconuri": "http://jqueryui.com/jquery-wp-content/themes/jqueryui.com/i/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "jQuery: The Write Less, Do More, JavaScript Library"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://jqueryui.com/demos/"
+            },
+            {
+              "guid": "Wt5-ly6d8CK1",
+              "title": "AngularJS Material Design",
+              "index": 43,
+              "dateAdded": 1430518168582000,
+              "lastModified": 1430518191231000,
+              "id": 3254,
+              "charset": "windows-1252",
+              "iconuri": "https://material.angularjs.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://material.angularjs.org/#/"
+            },
+            {
+              "guid": "0YRHzHrcCo9P",
+              "title": "Apache Tomcat 7 (7.0.59) - Documentation Index",
+              "index": 44,
+              "dateAdded": 1425821346545000,
+              "lastModified": 1425821346584000,
+              "id": 3195,
+              "charset": "windows-1252",
+              "iconuri": "http://tomcat.apache.org/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://tomcat.apache.org/tomcat-7.0-doc/index.html"
+            },
+            {
+              "guid": "f8Vm61ijtIHt",
+              "title": "Visual Studio Code - Google Search",
+              "index": 45,
+              "dateAdded": 1431359628148000,
+              "lastModified": 1431359628152000,
+              "id": 3267,
+              "charset": "UTF-8",
+              "iconuri": "https://www.google.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://www.google.com/search?q=Visual+Studio+Code&ie=utf-8&oe=utf-8"
+            },
+            {
+              "guid": "RbvoGMloZyUv",
+              "title": "Express - Node.js web application framework",
+              "index": 46,
+              "dateAdded": 1431470261176000,
+              "lastModified": 1431470261223000,
+              "id": 3270,
+              "charset": "UTF-8",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://expressjs.com/"
+            },
+            {
+              "guid": "Ha4AZuUCYo1M",
+              "title": "Using CORS - HTML5 Rocks",
+              "index": 47,
+              "dateAdded": 1431632096356000,
+              "lastModified": 1431632096469000,
+              "id": 3274,
+              "charset": "UTF-8",
+              "iconuri": "http://www.html5rocks.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "An introduction to Cross Origin Resource Sharing (CORS), which gives scripts the ability to make cross-origin XHRs."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.html5rocks.com/en/tutorials/cors/"
+            },
+            {
+              "guid": "GvW4V2119WHn",
+              "title": "Quick Introduction to Moqups / Configuration · Moqups",
+              "index": 48,
+              "dateAdded": 1447871421376000,
+              "lastModified": 1447871421556000,
+              "id": 3313,
+              "charset": "UTF-8",
+              "iconuri": "https://moqups.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "The most stunning HTML5 App for creating high fidelity, resolution independent SVG mockups and wireframes!"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://moqups.com/passion804222@gmail.com/k1fFuj1p"
+            },
+            {
+              "guid": "B1NrFC3l-2FE",
+              "title": "DojoFirebugExtension Reference Guide - FirebugWiki",
+              "index": 49,
+              "dateAdded": 1410532903534000,
+              "lastModified": 1410532903543000,
+              "id": 3081,
+              "charset": "UTF-8",
+              "iconuri": "https://getfirebug.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://getfirebug.com/wiki/index.php/DojoFirebugExtension_Reference_Guide"
+            },
+            {
+              "guid": "j5eB4jZYGnUb",
+              "title": "The Dojo Toolkit - Demos Index",
+              "index": 50,
+              "dateAdded": 1397429324000000,
+              "lastModified": 1397429324000000,
+              "id": 2991,
+              "charset": "UTF-8",
+              "iconuri": "http://dojotoolkit.org/images/favicon.ico",
+              "type": "text/x-moz-place",
+              "uri": "http://demos.dojotoolkit.org/demos/"
+            }
+          ]
+        },
+        {
+          "guid": "8C97oUVzQTAn",
+          "title": "Git",
+          "index": 10,
+          "dateAdded": 1424007990245000,
+          "lastModified": 1429614888409000,
+          "id": 3182,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "V_LJhd73RD57",
+              "title": "Git - Downloading Package",
+              "index": 0,
+              "dateAdded": 1424007972083000,
+              "lastModified": 1424007972262000,
+              "id": 3181,
+              "charset": "UTF-8",
+              "iconuri": "http://git-scm.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://git-scm.com/download/win"
+            },
+            {
+              "guid": "s0IpD9_ZfQ1a",
+              "title": "Git Annex — Ubuntu Apps Directory",
+              "index": 1,
+              "dateAdded": 1424008596522000,
+              "lastModified": 1424008596556000,
+              "id": 3184,
+              "charset": "UTF-8",
+              "iconuri": "https://apps.ubuntu.com/assets/images/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://apps.ubuntu.com/cat/applications/git-annex/"
+            },
+            {
+              "guid": "gY9VxNOKFx_Z",
+              "title": "GitHub · Build software better, together.",
+              "index": 2,
+              "dateAdded": 1424035997001000,
+              "lastModified": 1424035997093000,
+              "id": 3185,
+              "charset": "UTF-8",
+              "iconuri": "https://assets-cdn.github.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Build software better, together."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/"
+            }
+          ]
+        },
+        {
+          "guid": "ZuoG8vUYvRsu",
+          "title": "Bluemix",
+          "index": 11,
+          "dateAdded": 1429484576814000,
+          "lastModified": 1452093408679000,
+          "id": 3222,
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "Rrz7HEXs5YDC",
+              "title": "Cloudfoundry/cli · GitHub",
+              "index": 0,
+              "dateAdded": 1429484555562000,
+              "lastModified": 1429484576715000,
+              "id": 3221,
+              "charset": "UTF-8",
+              "iconuri": "https://assets-cdn.github.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "cli - A CLI for Cloud Foundry written in Go"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/cloudfoundry/cli/releases"
+            },
+            {
+              "guid": "WgPEVvNRsI8t",
+              "title": "IBM Bluemix - Next-Generation Cloud App Development Platform",
+              "index": 1,
+              "dateAdded": 1429614897281000,
+              "lastModified": 1429614897294000,
+              "id": 3224,
+              "charset": "UTF-8",
+              "iconuri": "https://ace-common-production-20150513-121844.stage1.ng.bluemix.net/cache/33e-4016485332/imgs/favicon.png",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Bluemix is an open standards, cloud platform for building, running, and managing apps and services."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://console.stage1.ng.bluemix.net/"
+            },
+            {
+              "guid": "fH2agfAWEiBb",
+              "title": "BlueHack Registration - BlueHack Wiki",
+              "index": 3,
+              "dateAdded": 1429614930152000,
+              "lastModified": 1429614930168000,
+              "id": 3227,
+              "charset": "UTF-8",
+              "iconuri": "https://w3-connections.ibm.com/common/resources/web/com.ibm.oneui3.styles/imageLibrary/Icons/ComponentsGray/WikisGray.ico?etag=20150131.201808",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W39045d408652_4b89_91b5_e1a84e0f661c/page/BlueHack%20Registration"
+            },
+            {
+              "guid": "WsLICmYwthDE",
+              "title": "watson-developer-cloud/tradeoff-analytics-java · GitHub",
+              "index": 4,
+              "dateAdded": 1429713881938000,
+              "lastModified": 1429713881943000,
+              "id": 3230,
+              "charset": "UTF-8",
+              "iconuri": "https://assets-cdn.github.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "tradeoff-analytics-java - Sample Java Application for the IBM Watson Tradeoff Analytics Service"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/watson-developer-cloud/tradeoff-analytics-java"
+            },
+            {
+              "guid": "B6pX8JEtx9at",
+              "title": "Watson Developer Cloud · GitHub",
+              "index": 5,
+              "dateAdded": 1429713932840000,
+              "lastModified": 1429713932846000,
+              "id": 3231,
+              "charset": "UTF-8",
+              "iconuri": "https://assets-cdn.github.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Build software better, together."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://github.com/watson-developer-cloud"
+            },
+            {
+              "guid": "Rm7IRG0ObkGw",
+              "title": "Build a real-time polls application with Node.js, Express, AngularJS, and MongoDB",
+              "index": 6,
+              "dateAdded": 1429614941150000,
+              "lastModified": 1429614941157000,
+              "id": 3228,
+              "charset": "UTF-8",
+              "iconuri": "http://www.ibm.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Build a polling application that updates in real-time as votes roll in. The app I created has a simple architecture that uses JavaScript for everything. Node.js and Express power the back-end, and MongoDB stores the app's data. At the front-end, AngularJS and Bootstrap power the user interface, with Web Sockets enabling the voting to update clients in real-time."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.ibm.com/developerworks/web/library/wa-nodejs-polling-app/index.html"
+            },
+            {
+              "guid": "HZ60P55SmLmU",
+              "title": "Tradeoff Analytics | IBM Watson Developer Cloud",
+              "index": 7,
+              "dateAdded": 1429716365109000,
+              "lastModified": 1429716365115000,
+              "id": 3232,
+              "charset": "UTF-8",
+              "iconuri": "http://www.ibm.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Helps users make better choices to best meet multiple conflicting goals, combining smart visualization and recommendations for tradeoff exploration"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/tradeoff-analytics.html"
+            },
+            {
+              "guid": "cecO5YpJveC4",
+              "title": "Gallery | IBM Watson Developer Cloud",
+              "index": 8,
+              "dateAdded": 1430738211100000,
+              "lastModified": 1430738211246000,
+              "id": 3258,
+              "charset": "UTF-8",
+              "iconuri": "http://www.ibm.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "Cognitive solutions are only as valuable as the content that feeds them - get the content you need to fuel your cognitive apps."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/gallery.html"
+            },
+            {
+              "guid": "5dxBUBccb6YR",
+              "title": "Polls",
+              "index": 9,
+              "dateAdded": 1429614951118000,
+              "lastModified": 1429614951134000,
+              "id": 3229,
+              "charset": "UTF-8",
+              "iconuri": "http://bluemixpolls.mybluemix.net/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://bluemixpolls.mybluemix.net/#/polls"
+            },
+            {
+              "guid": "Qn2bRMmalHUq",
+              "title": "Building apps using Node.js and Cloudant on IBM Bluemix | Cloudant",
+              "index": 10,
+              "dateAdded": 1430738824159000,
+              "lastModified": 1430738824234000,
+              "id": 3259,
+              "charset": "UTF-8",
+              "iconuri": "https://cloudant.com/wp-content/themes/cloudant/images/favicon.png",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://cloudant.com/blog/building-apps-using-node-js-and-cloudant-on-ibm-bluemix/#.VUdOyWMhGs0"
+            },
+            {
+              "guid": "65gwUqE49xQB",
+              "title": "Bluemix tutorials and apps - Web UI Team Wiki",
+              "index": 11,
+              "dateAdded": 1423772759200000,
+              "lastModified": 1423772759497000,
+              "id": 3180,
+              "charset": "UTF-8",
+              "iconuri": "https://w3-connections.ibm.com/common/resources/web/com.ibm.oneui3.styles/imageLibrary/Icons/ComponentsGray/WikisGray.ico?etag=20150131.201808",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W3dbb1cd1fa3f_4498_a968_2d9a9e25c8d2/page/Bluemix%20tutorials%20and%20apps"
+            },
+            {
+              "guid": "3LNOWs4zMqTx",
+              "title": "Java Web Starter Application",
+              "index": 12,
+              "dateAdded": 1429614918380000,
+              "lastModified": 1429614918394000,
+              "id": 3226,
+              "charset": "UTF-8",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://stawebappjava.stage1.mybluemix.net/"
+            },
+            {
+              "guid": "GUlhHfQN_NMY",
+              "title": "NodeJS Starter Application",
+              "index": 13,
+              "dateAdded": 1429614908421000,
+              "lastModified": 1429614908439000,
+              "id": 3225,
+              "charset": "UTF-8",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://nodejsbluemixapp.stage1.mybluemix.net/"
+            },
+            {
+              "guid": "TDVmEMbfgE9i",
+              "title": "Bluemix Sancbox",
+              "index": 14,
+              "dateAdded": 1413387609391000,
+              "lastModified": 1413387618164000,
+              "id": 3101,
+              "charset": "UTF-8",
+              "iconuri": "https://ace-home-production-20150416-091149.stage1.ng.bluemix.net/home/cache/33e-4016485332/imgs/favicon32.png",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "IBM Bluemix is an open-standards, cloud-based platform for building, managing, and running apps of all types, such as web, mobile, big data, and smart devices. Capabilities include Java, mobile back-end development, and application monitoring, as well as features from ecosystem partners and open source-all provided as-a-service in the cloud."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://ace.stage1.ng.bluemix.net/"
+            },
+            {
+              "guid": "BHaQV713W7jY",
+              "title": "Arduino Tutorial: Temperature Sensor - Ray Wenderlich",
+              "index": 15,
+              "dateAdded": 1430764351202000,
+              "lastModified": 1430764351298000,
+              "id": 3261,
+              "charset": "UTF-8",
+              "iconuri": "http://www.raywenderlich.com/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "An Arduino Tutorial on building a temperature sensor - and an iPhone app to connect with it!"
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://www.raywenderlich.com/38841/arduino-tutorial-temperature-sensor"
+            },
+            {
+              "guid": "eaB53zYg2bZE",
+              "title": "BlueMix CAT APP Links",
+              "index": 16,
+              "dateAdded": 1431711202658000,
+              "lastModified": 1431711250640000,
+              "id": 3275,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "xzDqfoxASDvC",
+                  "title": "IBM Bluemix DevOps Services",
+                  "index": 0,
+                  "dateAdded": 1431711202677000,
+                  "lastModified": 1431711202677000,
+                  "id": 3276,
+                  "iconuri": "https://hub.jazz.net/tutorials/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "https://hub.jazz.net/tutorials/jazzeditor/"
+                },
+                {
+                  "guid": "cmfT4qsTAYj_",
+                  "title": "CAT APP",
+                  "index": 1,
+                  "dateAdded": 1431711202681000,
+                  "lastModified": 1431711202681000,
+                  "id": 3277,
+                  "type": "text/x-moz-place",
+                  "uri": "http://localhost:6001/"
+                },
+                {
+                  "guid": "81C1ElhUUFD9",
+                  "title": "CAT APP",
+                  "index": 2,
+                  "dateAdded": 1431711202684000,
+                  "lastModified": 1431711202684000,
+                  "id": 3278,
+                  "charset": "UTF-8",
+                  "type": "text/x-moz-place",
+                  "uri": "http://nodejsbluemixapp.stage1.mybluemix.net/"
+                },
+                {
+                  "guid": "pjGV-uihsGUp",
+                  "title": "Favorites Organizer powered by Cloudant",
+                  "index": 3,
+                  "dateAdded": 1431711202686000,
+                  "lastModified": 1431711202686000,
+                  "id": 3279,
+                  "charset": "UTF-8",
+                  "iconuri": "http://jcat.stage1.mybluemix.net/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://jcat.stage1.mybluemix.net/"
+                },
+                {
+                  "guid": "5O9-D-VNjl-m",
+                  "title": "Getting Started with Bluemix - BlueHack Wiki",
+                  "index": 4,
+                  "dateAdded": 1431711202689000,
+                  "lastModified": 1431711202689000,
+                  "id": 3280,
+                  "iconuri": "https://w3-connections.ibm.com/common/resources/web/com.ibm.oneui3.styles/imageLibrary/Icons/ComponentsGray/WikisGray.ico?etag=20150131.201808",
+                  "type": "text/x-moz-place",
+                  "uri": "https://w3-connections.ibm.com/wikis/home?lang=en-us#!/wiki/W39045d408652_4b89_91b5_e1a84e0f661c/page/Getting%20Started%20with%20Bluemix"
+                },
+                {
+                  "guid": "KRacNkUJlxSc",
+                  "title": "Building apps using Node.js and Cloudant on IBM Bluemix | Cloudant",
+                  "index": 5,
+                  "dateAdded": 1431711202693000,
+                  "lastModified": 1431711202693000,
+                  "id": 3281,
+                  "iconuri": "https://cloudant.com/wp-content/themes/cloudant/images/favicon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://cloudant.com/blog/building-apps-using-node-js-and-cloudant-on-ibm-bluemix/#.VVJ6lWMyWj_"
+                }
+              ]
+            },
+            {
+              "guid": "XnH8ieilAL2I",
+              "title": "Blue Mix Demo Chin Cloudant",
+              "index": 17,
+              "dateAdded": 1431461045258000,
+              "lastModified": 1431461100291000,
+              "id": 3269,
+              "charset": "UTF-8",
+              "iconuri": "http://jcat.stage1.mybluemix.net/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://jcat.stage1.mybluemix.net/"
+            },
+            {
+              "guid": "5_rQ6xfkMJ5J",
+              "title": "BlueHack",
+              "index": 18,
+              "dateAdded": 1429294631104000,
+              "lastModified": 1429294631107000,
+              "id": 3220,
+              "charset": "UTF-8",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://bluehack.stage1.mybluemix.net/"
+            },
+            {
+              "guid": "WV0aNx74FTqs",
+              "title": "http://tmaas.mybluemix.net/#/",
+              "index": 19,
+              "dateAdded": 1448373132367000,
+              "lastModified": 1448373132529000,
+              "id": 3314,
+              "charset": "UTF-8",
+              "iconuri": "http://tmaas.mybluemix.net/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://tmaas.mybluemix.net/#/"
+            }
+          ]
+        },
+        {
+          "guid": "UZN-hNhV0f5i",
+          "title": "Commerce",
+          "index": 13,
+          "dateAdded": 1453492005590000,
+          "lastModified": 1453662571029000,
+          "id": 3327,
+          "annos": [
+            {
+              "name": "bookmarkPropertiesDialog/folderLastUsed",
+              "flags": 0,
+              "expires": 4,
+              "value": 1453662520563
+            }
+          ],
+          "type": "text/x-moz-place-container",
+          "children": [
+            {
+              "guid": "XYgVv52yEPSd",
+              "title": "DevEnv",
+              "index": 0,
+              "dateAdded": 1453662510280000,
+              "lastModified": 1453662563563000,
+              "id": 3331,
+              "type": "text/x-moz-place-container",
+              "children": [
+                {
+                  "guid": "05-zkRvDnYxs",
+                  "title": "Dashboard - Code School",
+                  "index": 0,
+                  "dateAdded": 1453662510287000,
+                  "lastModified": 1453662510287000,
+                  "id": 3332,
+                  "iconuri": "https://www.codeschool.com/assets/meta/apple-touch-icon-192x192-7f0a5eedafe908655371644d29e2b866.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.codeschool.com/account"
+                },
+                {
+                  "guid": "JDde2AS6NjTJ",
+                  "title": "Matt Frazier | BluePages on TAP",
+                  "index": 1,
+                  "dateAdded": 1453662510291000,
+                  "lastModified": 1453662510291000,
+                  "id": 3333,
+                  "iconuri": "https://faces.tap.ibm.com/bluepages/favicon-96.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://faces.tap.ibm.com/bluepages/profile.html?email=mfrazier@us.ibm.com"
+                },
+                {
+                  "guid": "FZ08DKc03hZX",
+                  "title": "Projects - ExperienceOne Stash",
+                  "index": 2,
+                  "dateAdded": 1453662510292000,
+                  "lastModified": 1453662510292000,
+                  "id": 3334,
+                  "iconuri": "http://stash.xtify.com:7990/s/en_US/6d7e0fe/1/1.0/_/download/resources/com.atlassian.stash.stash-web-plugin:favicon/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://stash.xtify.com:7990/projects"
+                },
+                {
+                  "guid": "we47Cts3QFfR",
+                  "title": "Browse ExperienceOne / x1-explore-gateway - ExperienceOne Stash",
+                  "index": 3,
+                  "dateAdded": 1453662510293000,
+                  "lastModified": 1453662510293000,
+                  "id": 3335,
+                  "iconuri": "http://stash.xtify.com:7990/s/en_US/6d7e0fe/1/1.0/_/download/resources/com.atlassian.stash.stash-web-plugin:favicon/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://stash.xtify.com:7990/projects/X1/repos/x1-explore-gateway/browse"
+                },
+                {
+                  "guid": "7W_NDnruOzvx",
+                  "title": "XAMPP Installers and Downloads for Apache Friends",
+                  "index": 4,
+                  "dateAdded": 1453662510294000,
+                  "lastModified": 1453662510294000,
+                  "id": 3336,
+                  "iconuri": "https://d16zszyyqlzz6z.cloudfront.net/images/favicon-18f9bd42.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.apachefriends.org/index.html"
+                },
+                {
+                  "guid": "CpKY1Cri7LAQ",
+                  "title": "XAMPP Download Success",
+                  "index": 5,
+                  "dateAdded": 1453662510295000,
+                  "lastModified": 1453662510295000,
+                  "id": 3337,
+                  "iconuri": "https://d16zszyyqlzz6z.cloudfront.net/images/favicon-18f9bd42.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.apachefriends.org/download_success.html"
+                },
+                {
+                  "guid": "Rg4dg3uEAKeu",
+                  "title": "Brackets - A modern, open source code editor that understands web design.",
+                  "index": 6,
+                  "dateAdded": 1453662510296000,
+                  "lastModified": 1453662510296000,
+                  "id": 3338,
+                  "iconuri": "http://brackets.io/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://brackets.io/"
+                },
+                {
+                  "guid": "EpxWpTmabJYE",
+                  "title": "Stash Documentation Home - Stash 3.1 - Atlassian Documentation",
+                  "index": 7,
+                  "dateAdded": 1453662510296000,
+                  "lastModified": 1453662510296000,
+                  "id": 3339,
+                  "charset": "UTF-8",
+                  "iconuri": "https://confluence.atlassian.com/s/en_GB/5997/6f42626d00e36f53fe51440403446ca61552e2a2.27/_/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "https://confluence.atlassian.com/display/STASH031/Stash+Documentation+Home"
+                },
+                {
+                  "guid": "pvrtoYEf8JOC",
+                  "title": "Development and Collaboration Software Company | Atlassian",
+                  "index": 8,
+                  "dateAdded": 1453662510297000,
+                  "lastModified": 1453662510297000,
+                  "id": 3340,
+                  "charset": "UTF-8",
+                  "iconuri": "https://www.atlassian.com/assets/img/favicons/atlassian/favicon.png",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.atlassian.com/company"
+                },
+                {
+                  "guid": "9JKk6oKHrZdO",
+                  "title": "Peretz Showcase",
+                  "index": 9,
+                  "dateAdded": 1453662510298000,
+                  "lastModified": 1453662510298000,
+                  "id": 3341,
+                  "type": "text/x-moz-place",
+                  "uri": "http://dev.x1showcase.emmlabs.ibm.com/#/contributing/i18n"
+                },
+                {
+                  "guid": "rXahFfIZXlvr",
+                  "title": "Stacked Area Chart - NVD3",
+                  "index": 10,
+                  "dateAdded": 1453662510300000,
+                  "lastModified": 1453662510300000,
+                  "id": 3342,
+                  "iconuri": "http://nvd3.org/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://nvd3.org/examples/stackedArea.html"
+                },
+                {
+                  "guid": "ISbUsdFSxTsd",
+                  "title": "start - jqGrid Wiki",
+                  "index": 11,
+                  "dateAdded": 1453662510301000,
+                  "lastModified": 1453662510301000,
+                  "id": 3343,
+                  "iconuri": "http://www.trirand.com/jqgridwiki/lib/tpl/monobook/user/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://www.trirand.com/jqgridwiki/doku.php"
+                },
+                {
+                  "guid": "c2VOmm9S8XVK",
+                  "title": "Bower",
+                  "index": 12,
+                  "dateAdded": 1453662510302000,
+                  "lastModified": 1453662510302000,
+                  "id": 3344,
+                  "iconuri": "http://bower.io/favicon.ico",
+                  "type": "text/x-moz-place",
+                  "uri": "http://bower.io/"
+                },
+                {
+                  "guid": "0DOUqZtxXRlw",
+                  "title": "IBM ExperienceOne Solution Engineering : IBM ExperienceOne Solution Engineering",
+                  "index": 13,
+                  "dateAdded": 1453662510302000,
+                  "lastModified": 1453662510302000,
+                  "id": 3345,
+                  "iconuri": "https://www.ibm.com/developerworks/community/connections/resources/web/com.ibm.oneui3.styles/imageLibrary/Icons/ComponentsGray/WikisGray.ico?etag=20150310.220517",
+                  "type": "text/x-moz-place",
+                  "uri": "https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/W214f7731a379_4712_a1ce_5d7a833d4cca/page/IBM%20ExperienceOne%20Solution%20Engineering"
+                }
+              ]
+            },
+            {
+              "guid": "ETOSckg8c2GH",
+              "title": "IBM Peretz Showcase",
+              "index": 1,
+              "dateAdded": 1431377360303000,
+              "lastModified": 1431377385929000,
+              "id": 3268,
+              "charset": "UTF-8",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://dev.x1showcase.emmlabs.ibm.com/#/home"
+            },
+            {
+              "guid": "Rkg7WqX-ii1c",
+              "title": "ExperienceOne UI Project Overview - ExperienceOne Stash",
+              "index": 2,
+              "dateAdded": 1453492210647000,
+              "lastModified": 1453492210768000,
+              "id": 3328,
+              "charset": "UTF-8",
+              "iconuri": "http://stash.xtify.com/s/en_US/6d7e0fe/1/1.0/_/download/resources/com.atlassian.stash.stash-web-plugin:favicon/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "http://stash.xtify.com/projects/X1-UI"
+            },
+            {
+              "guid": "cGrkvCc-Q0kK",
+              "title": "Stash Documentation Home - Stash 3.1 - Atlassian Documentation",
+              "index": 3,
+              "dateAdded": 1453574472435000,
+              "lastModified": 1453574472454000,
+              "id": 3329,
+              "charset": "UTF-8",
+              "iconuri": "https://confluence.atlassian.com/s/en_GB/5997/6f42626d00e36f53fe51440403446ca61552e2a2.27/_/favicon.ico",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": ""
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://confluence.atlassian.com/display/STASH031/Stash+Documentation+Home"
+            },
+            {
+              "guid": "DL7FRMC_F5W7",
+              "title": "Development and Collaboration Software Company | Atlassian",
+              "index": 4,
+              "dateAdded": 1453574489329000,
+              "lastModified": 1453574489333000,
+              "id": 3330,
+              "charset": "UTF-8",
+              "iconuri": "https://www.atlassian.com/assets/img/favicons/atlassian/favicon.png",
+              "annos": [
+                {
+                  "name": "bookmarkProperties/description",
+                  "flags": 0,
+                  "expires": 4,
+                  "value": "At Atlassian, we work hard to create useful software and collaboration tools that developers, product managers, doc writers, and bug-bashers will love."
+                }
+              ],
+              "type": "text/x-moz-place",
+              "uri": "https://www.atlassian.com/company"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
