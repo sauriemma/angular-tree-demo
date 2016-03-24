@@ -9,7 +9,7 @@ Instructions
             npm install -g gulp
     Install git
     Clone this repository. Get the clone link from the Clone link on this web page.
-    git clone https://github.com/sauriemma/sauriemma.github.io
+    git clone https://github.com/sauriemma/angular-tree-demo
     Cd to the testBuild dir, 
         type npm install && npm update
         type bower install
