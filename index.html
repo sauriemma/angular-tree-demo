@@ -11,7 +11,9 @@
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <!-- endbower -->    
 
-    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>    
+    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+    
+    <script src="BookmarksController.js"></script>
 
 
     <!-- bower:css -->
@@ -49,84 +51,85 @@
 
 </head>
 <body ng-app="example">
+    
+<div class="container">
 
-<div class="page-header">
-    <h1>Bookmarks Viewer<small>(Export your FireFox bookmars and display them here.)</small></h1>
-</div>
-
-<section id="expandedNodes" ng-controller="BookmarksController">
-
-    <div class="col-md-4">
-    <treecontrol class="tree-classic"
-                 tree-model="treeData"
-                 options="treeOptions"
-
-                 on-selection="showSelected(node, selected, $parentNode, $index, $first, $middle, $last, $odd, $even)"
-                 on-node-toggle="showToggle(node, expanded, $parentNode, $index, $first, $middle, $last, $odd, $even)"
-
-            >
-        {{node.title}}
-    </treecontrol>
+    <div class="page-header">
+        <h1>Bookmarks Viewer<small> (Export your FireFox bookmars and display them here.)</small></h1>
     </div>
 
-    <div class="col-md-8">
+    <section id="expandedNodes" ng-controller="BookmarksController">
 
-        <!--Search -->
-        <div style="padding:20px 0px 60px 0px">
-            <span class="col-md-1" style="font-weight:bold">Search</span>
-			<span class="col-md-3">
-			<input type="text" class="form-control ng-pristine ng-valid" ng-model="searchText">
-			</span>
+        <div class="col-md-4">
+        <treecontrol class="tree-classic"
+                     tree-model="treeData"
+                     options="treeOptions"
+
+                     on-selection="showSelected(node, selected, $parentNode, $index, $first, $middle, $last, $odd, $even)"
+                     on-node-toggle="showToggle(node, expanded, $parentNode, $index, $first, $middle, $last, $odd, $even)"
+
+                >
+            {{node.title}}
+        </treecontrol>
         </div>
 
-        <!--Table dynamic set tableData -->
+        <div class="col-md-8">
+
+            <!--Search -->
+            <div style="padding:20px 0px 60px 0px">
+                <span class="col-md-1" style="font-weight:bold">Search</span>
+                <span class="col-md-3">
+                <input type="text" class="form-control ng-pristine ng-valid" ng-model="searchText">
+                </span>
+            </div>
+
+            <!--Table dynamic set tableData -->
+    <!--
+            <table width="100%" class="table">
+                <thead>
+                <tr>
+                    &lt;!&ndash;<th ng-repeat="(header, value) in tableData[0]">{{header}}</th>&ndash;&gt;
+                    <th ng-repeat="(header, value) in tableData[0]">
+                        &lt;!&ndash;<a href="" ng-click="orderByField='{{header}}'; reverseSort = !reverseSort">{{header}}</a>&ndash;&gt;
+                        <a href="" ng-click="clickHeader(this.header);">{{header}}</a>
+                    </th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField">
+                &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField:reverseSort">&ndash;&gt;
+                &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText">&ndash;&gt;
+                    <td ng-repeat="cell in row">{{cell}}</td>
+                </tr>
+                </tbody>
+            </table>
+    -->
+
+            <table st-table="tableData" class="table table-striped">
+                <thead>
+                <tr>
+                    <th><a href="" ng-click="clickHeader('title');">Title</a></th>
+                    <th><a href="" ng-click="clickHeader('uri');">URI</a></th>
+                    <th><a href="" ng-click="clickHeader('type');">Type</a></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField">
+                    <td>{{row.title}}</td>
+                    <td>{{row.uri}}</td>
+                    <td>{{row.type}}</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </section>
+    
+</div>
+    
 <!--
-        <table width="100%" class="table">
-            <thead>
-            <tr>
-                &lt;!&ndash;<th ng-repeat="(header, value) in tableData[0]">{{header}}</th>&ndash;&gt;
-                <th ng-repeat="(header, value) in tableData[0]">
-                    &lt;!&ndash;<a href="" ng-click="orderByField='{{header}}'; reverseSort = !reverseSort">{{header}}</a>&ndash;&gt;
-                    <a href="" ng-click="clickHeader(this.header);">{{header}}</a>
-                </th>
-
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField">
-            &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField:reverseSort">&ndash;&gt;
-            &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText">&ndash;&gt;
-                <td ng-repeat="cell in row">{{cell}}</td>
-            </tr>
-            </tbody>
-        </table>
--->
-
-        <table st-table="tableData" class="table table-striped">
-            <thead>
-            <tr>
-                <th><a href="" ng-click="clickHeader('title');">Title</a></th>
-                <th><a href="" ng-click="clickHeader('uri');">URI</a></th>
-                <th><a href="" ng-click="clickHeader('type');">Type</a></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField">
-                <td>{{row.title}}</td>
-                <td>{{row.uri}}</td>
-                <td>{{row.type}}</td>
-            </tr>
-            </tbody>
-        </table>
-
-    </div>
-
-
-
-
-</section>
-
-
 <script>
         
         var app = angular.module('app', []);
@@ -166,6 +169,8 @@
         example.controller("BookmarksController", BookmarksController);
 
 </script>
+-->
+
 
 </body>
 </html>
