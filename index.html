@@ -1,7 +1,14 @@
 <!doctype html>
 <html>
 <head>
-    <title>Angular Tree</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Angular Tree Demo">
+    <meta name="author" content="Stephen Auriemma">
+    
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+    
+    <title>Angular Tree Demo</title>
 
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -15,162 +22,94 @@
     
     <script src="BookmarksController.js"></script>
 
-
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/angular-tree-control/css/tree-control.css" />
     <!-- endbower -->     
 
     <!-- bootstrap does not process with bower -->    
-    <!--<link rel="stylesheet" href="bower_components/angular-bootstrap/ui-bootstrap-csp.css" />   --> 
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-    
-    <!-- bootstrap Latest compiled and minified CSS -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
-
-    <!-- bootstrap Optional theme -->
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">-->
-
-    <!-- bootstrap Latest compiled and minified JavaScript -->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>-->
-    
-
-    <!--
-    <script src="demo/jquery.2.0.3.js"></script>
-    <script src="demo/angular.1.2.29.js"></script>
-    <script src="demo/bootstrap.3.1.1.js"></script>
-    <script src="demo/ui-bootstrap-tpls.0.11.2.js"></script>
-    <script src="demo/prettify.1.0.1.js"></script>
-
-    <link  href="demo/bootstrap.3.1.1.css" rel="stylesheet" type="text/css">
-    <link  href="demo/prettify-style.css" rel="stylesheet" type="text/css">
-
-    <script src="angular-tree-control.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/tree-control.css">
-    <link rel="stylesheet" type="text/css" href="css/tree-control-attribute.css">
-    -->
 
 </head>
+
 <body ng-app="example">
     
-<div class="container">
+    <div class="container">
 
-    <div class="page-header">
-        <h1>Bookmarks Viewer<small> (Export your FireFox bookmars and display them here.)</small></h1>
-    </div>
-
-    <section id="expandedNodes" ng-controller="BookmarksController">
-
-        <div class="col-md-4">
-        <treecontrol class="tree-classic"
-                     tree-model="treeData"
-                     options="treeOptions"
-
-                     on-selection="showSelected(node, selected, $parentNode, $index, $first, $middle, $last, $odd, $even)"
-                     on-node-toggle="showToggle(node, expanded, $parentNode, $index, $first, $middle, $last, $odd, $even)"
-
-                >
-            {{node.title}}
-        </treecontrol>
+        <div class="page-header">
+            <h1>Bookmarks Viewer<small> (Export your FireFox bookmars and display them here.)</small></h1>
         </div>
 
-        <div class="col-md-8">
+        <section id="expandedNodes" ng-controller="BookmarksController">
 
-            <!--Search -->
-            <div style="padding:20px 0px 60px 0px">
-                <span class="col-md-1" style="font-weight:bold">Search</span>
-                <span class="col-md-3">
-                <input type="text" class="form-control ng-pristine ng-valid" ng-model="searchText">
-                </span>
+            <div class="col-md-4">
+            <treecontrol class="tree-classic"
+                         tree-model="treeData"
+                         options="treeOptions"
+
+                         on-selection="showSelected(node, selected, $parentNode, $index, $first, $middle, $last, $odd, $even)"
+                         on-node-toggle="showToggle(node, expanded, $parentNode, $index, $first, $middle, $last, $odd, $even)"
+
+                    >
+                {{node.title}}
+            </treecontrol>
             </div>
 
-            <!--Table dynamic set tableData -->
-    <!--
-            <table width="100%" class="table">
-                <thead>
-                <tr>
-                    &lt;!&ndash;<th ng-repeat="(header, value) in tableData[0]">{{header}}</th>&ndash;&gt;
-                    <th ng-repeat="(header, value) in tableData[0]">
-                        &lt;!&ndash;<a href="" ng-click="orderByField='{{header}}'; reverseSort = !reverseSort">{{header}}</a>&ndash;&gt;
-                        <a href="" ng-click="clickHeader(this.header);">{{header}}</a>
-                    </th>
+            <div class="col-md-8">
 
-                </tr>
-                </thead>
-                <tbody>
-                <tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField">
-                &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField:reverseSort">&ndash;&gt;
-                &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText">&ndash;&gt;
-                    <td ng-repeat="cell in row">{{cell}}</td>
-                </tr>
-                </tbody>
-            </table>
-    -->
+                <!--Search -->
+                <div style="padding:20px 0px 60px 0px">
+                    <span class="col-md-1" style="font-weight:bold">Search</span>
+                    <span class="col-md-3">
+                    <input type="text" class="form-control ng-pristine ng-valid" ng-model="searchText">
+                    </span>
+                </div>
 
-            <table st-table="tableData" class="table table-striped">
-                <thead>
-                <tr>
-                    <th><a href="" ng-click="clickHeader('title');">Title</a></th>
-                    <th><a href="" ng-click="clickHeader('uri');">URI</a></th>
-                    <th><a href="" ng-click="clickHeader('type');">Type</a></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField">
-                    <td>{{row.title}}</td>
-                    <td>{{row.uri}}</td>
-                    <td>{{row.type}}</td>
-                </tr>
-                </tbody>
-            </table>
+                <!--Table dynamic set tableData -->
+        <!--
+                <table width="100%" class="table">
+                    <thead>
+                    <tr>
+                        &lt;!&ndash;<th ng-repeat="(header, value) in tableData[0]">{{header}}</th>&ndash;&gt;
+                        <th ng-repeat="(header, value) in tableData[0]">
+                            &lt;!&ndash;<a href="" ng-click="orderByField='{{header}}'; reverseSort = !reverseSort">{{header}}</a>&ndash;&gt;
+                            <a href="" ng-click="clickHeader(this.header);">{{header}}</a>
+                        </th>
 
-        </div>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField">
+                    &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField:reverseSort">&ndash;&gt;
+                    &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText">&ndash;&gt;
+                        <td ng-repeat="cell in row">{{cell}}</td>
+                    </tr>
+                    </tbody>
+                </table>
+        -->
 
-    </section>
-    
-</div>
-    
-<!--
-<script>
-        
-        var app = angular.module('app', []);
-        var example = angular.module("example", ["treeControl", "ui.bootstrap"/*, "template/tabs/tab.html", "template/tabs/tabset.html"*/]);
-        
-        function BookmarksController($http, $scope) {
+                <table st-table="tableData" class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th><a href="" ng-click="clickHeader('title');">Title</a></th>
+                        <th><a href="" ng-click="clickHeader('uri');">URI</a></th>
+                        <th><a href="" ng-click="clickHeader('type');">Type</a></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField">
+                        <td>{{row.title}}</td>
+                        <td>{{row.uri}}</td>
+                        <td>{{row.type}}</td>
+                    </tr>
+                    </tbody>
+                </table>
 
-            // Tree Options
-            //$scope.treeOptions = {dirSelectable: false};
+            </div>
 
-            $http.get('data/bookmarks.json').success(function(response) {
-                console.log("Get Tree Data:" + response);
-                $scope.treeData = response.children;
-                $scope.tableData = response.children;
-            });
+        </section>
 
-            $scope.showSelected = function(node, selected, $parentNode, $index, $first, $middle, $last, $odd, $even) {
-                if (node.type == "text/x-moz-place") {
-                    console.log("Node " + node.title + " " + node.uri);
-                }
-                else if (node.type == "text/x-moz-place-container") {
-                    console.log("Directory " + node.title + " " + node.uri);
-                    $scope.tableData = node.children;
-                }
-                else {
-                    console.log("Other " + node.title + " " + node.uri);
-                }
-            };
-
-            $scope.clickHeader = function(param1) {
-                console.log("clickAction  " + param1);
-                $scope.orderByField = param1;
-            }
-
-        }
-        
-        example.controller("BookmarksController", BookmarksController);
-
-</script>
--->
-
+    </div>
 
 </body>
+
 </html>

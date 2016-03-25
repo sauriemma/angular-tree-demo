@@ -1,6 +1,6 @@
         
-        var app = angular.module('app', []);
-        var example = angular.module("example", ["treeControl", "ui.bootstrap"/*, "template/tabs/tab.html", "template/tabs/tabset.html"*/]);
+        //var app = angular.module('app', []);
+        var app = angular.module("app", ["treeControl", "ui.bootstrap"/*, "template/tabs/tab.html", "template/tabs/tabset.html"*/]);
         
         function BookmarksController($http, $scope) {
 
@@ -18,7 +18,7 @@
                     console.log("Node " + node.title + " " + node.uri);
                 }
                 else if (node.type == "text/x-moz-place-container") {
-                    console.log("Directory " + node.title + " " + node.uri);
+                    console.log("Directory " + node.title);
                     $scope.tableData = node.children;
                 }
                 else {
@@ -33,4 +33,4 @@
 
         }
         
-        example.controller("BookmarksController", BookmarksController);
+        app.controller("BookmarksController", BookmarksController);
