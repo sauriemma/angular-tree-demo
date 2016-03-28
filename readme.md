@@ -1,5 +1,6 @@
 
-Angular Tree Control Demo 
+Angular Tree Control Demo
+
 The AngularJS tree component
 
 http://ngmodules.org/modules/angular-tree-control
