@@ -8,4 +8,7 @@ function BookmarksTableDirective () {
     }
 }
 
-app.directive("bookmarksTable", BookmarksTableDirective);
+var directives = angular.module('Bookmarks.directives', [])
+    .directive('bookmarksTable',BookmarksTableDirective);
+
+//app.directive("bookmarksTable", BookmarksTableDirective);

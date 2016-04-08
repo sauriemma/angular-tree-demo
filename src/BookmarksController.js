@@ -13,6 +13,11 @@
                 $scope.tableData = response.children;
             });
 
+            $scope.$on("$destroy",function() {
+                alert("$destroy");
+                //$( window ).off( "resize.Viewport" );
+            });
+
             $scope.showSelected = function(node, selected, $parentNode, $index, $first, $middle, $last, $odd, $even) {
                 if (node.type == "text/x-moz-place") {
                     console.log("Node " + node.title + " " + node.uri);
@@ -32,5 +37,8 @@
             }
 
         }
+
+        var controllers = angular.module('Bookmarks.controllers', [])
+            .controller('BookmarksController',BookmarksController);
         
-        app.controller("BookmarksController", BookmarksController);
+        //app.controller("BookmarksController", BookmarksController);
