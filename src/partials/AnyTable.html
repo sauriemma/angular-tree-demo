@@ -1,0 +1,21 @@
+<!--Table dynamic set tableData -->
+
+        <table width="100%" class="table">
+            <thead>
+            <tr>
+                &lt;!&ndash;<th ng-repeat="(header, value) in tableData[0]">{{header}}</th>&ndash;&gt;
+                <th ng-repeat="(header, value) in tableData[0]">
+                    &lt;!&ndash;<a href="" ng-click="orderByField='{{header}}'; reverseSort = !reverseSort">{{header}}</a>&ndash;&gt;
+                    <a href="" ng-click="clickHeader(this.header);">{{header}}</a>
+                </th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField">
+            &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField:reverseSort">&ndash;&gt;
+            &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText">&ndash;&gt;
+                <td ng-repeat="cell in row">{{cell}}</td>
+            </tr>
+            </tbody>
+        </table>

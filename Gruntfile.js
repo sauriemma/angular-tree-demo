@@ -4,6 +4,7 @@
 module.exports = function(grunt) {
 
     grunt.initConfig({
+        package: grunt.file.readJSON('package.json'),
         jshint: {
             files: ['Gruntfile.js', 'src/**/*.js', 'test/**/*.js'],
             options: {
@@ -38,13 +39,31 @@ module.exports = function(grunt) {
             ignorePath: '',
             overrides: {}
           }
-        }
+        },
+        'concat': {
+            'dist': {
+                'src': ['src/**/*.js'],
+                'dest': 'dist/<%= package.namelower %>-<%= package.version %>.js'
+            }
+        },
+        'uglify': {
+            'options': {
+                'mangle': false
+            },
+            'dist': {
+                'files': {
+                    'dist/<%= package.namelower %>-<%= package.version %>.min.js': ['dist/<%= package.namelower %>-<%= package.version %>.js']
+                }
+            }
+        },
+
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-bower-install');
-
+    grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.registerTask('default', ['jshint']);
 
 };

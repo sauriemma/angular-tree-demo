@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Memory Leak">
+    <meta name="author" content="Stephen Auriemma">
+
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+
+    <title>Memory Leak</title>
+
+    <!-- bootstrap does not process with bower -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+
+
+
+</head>
+
+
+</body>
+
+<div class="container">
+
+    <div class="page-header">
+        <h1>Memory Leak<small> (Find and resolve memory leaks.)</small></h1>
+    </div>
+
+    <p>
+    <button id="bLeak">Leak Memory</button> <button id="bFree">Free Memory</button>
+    </p>
+
+    <pre>
+    <a href="http://makandracards.com/makandra/31289-how-to-create-giant-memory-leaks-in-angularjs" target="_blank">
+    http://makandracards.com/makandra/31289-how-to-create-giant-memory-leaks-in-angularjs
+    </a>
+    How to observe memory consumption
+
+    To inspect the amount of memory consumed by your Javascripts in Chrome:
+
+    Open an incognito window
+    Open the page you want to inspect
+    Press Shift + ESC to see a list of Chrome processes
+    Find the process for the incognito window
+    Right-click on the list and check Javascript memory
+    Observe the Javascript memory column as it grows and grows while using your app
+    Note that you can manually run the Javascript garbage collector:
+
+    Open the Developer Tools (Ctrl+Shift+J)
+    Open the Timeline tab
+    Click on the garbage can icon
+    Note that if you created a proper memory leak, the garbage collector won't be able to reclaim much memory. That's why it's a leak.
+
+    You can also take a look at the contents of your memory:
+
+    Run the garbage collector as described above
+    Open the Developer Tools (Ctrl+Shift+J)
+    Open the Profiles tab
+    Select Take Heap Snapshot
+    Press Take Snapshot
+    See a list of millions of uncollectable objects
+    </pre>
+
+
+
+</div>
+
+</body>
+
+<script>
+    var bLeak = document.getElementById('bLeak');
+    list = [];
+
+    function leak(event) {
+        var mem = new Array(1000000).join('text');
+        list.push(mem);
+        //console.log(mem);
+        console.log("leak" + list.length);
+    }
+
+    bLeak.addEventListener('click', leak);
+
+
+    var bFree = document.getElementById('bFree');
+    list = [];
+
+    function free(event) {
+        //list.push(mem);
+        list.pop();
+        //list = [];
+        console.log("free" + list.length);
+    }
+
+    bFree.addEventListener('click', free);
+
+
+    // Do stuff
+    //bLeak.removeEventListener('click', onClick);
+    //bLeak.parentNode.removeChild(bLeak);
+</script>
+
+</html>

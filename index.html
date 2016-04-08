@@ -19,8 +19,10 @@
     <!-- endbower -->    
 
     <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
-    
-    <script src="BookmarksController.js"></script>
+
+    <script src="src/app.js"></script>
+    <script src="src/BookmarksController.js"></script>
+    <script src="src/BookmarksTableDirective.js"></script>
 
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/angular-tree-control/css/tree-control.css" />
@@ -28,6 +30,8 @@
 
     <!-- bootstrap does not process with bower -->    
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="src/css/main.css" />
 
 </head>
 
@@ -56,53 +60,7 @@
 
             <div class="col-md-8">
 
-                <!--Search -->
-                <div style="padding:20px 0px 60px 0px">
-                    <span class="col-md-1" style="font-weight:bold">Search</span>
-                    <span class="col-md-3">
-                    <input type="text" class="form-control ng-pristine ng-valid" ng-model="searchText">
-                    </span>
-                </div>
-
-                <!--Table dynamic set tableData -->
-        <!--
-                <table width="100%" class="table">
-                    <thead>
-                    <tr>
-                        &lt;!&ndash;<th ng-repeat="(header, value) in tableData[0]">{{header}}</th>&ndash;&gt;
-                        <th ng-repeat="(header, value) in tableData[0]">
-                            &lt;!&ndash;<a href="" ng-click="orderByField='{{header}}'; reverseSort = !reverseSort">{{header}}</a>&ndash;&gt;
-                            <a href="" ng-click="clickHeader(this.header);">{{header}}</a>
-                        </th>
-
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField">
-                    &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField:reverseSort">&ndash;&gt;
-                    &lt;!&ndash;<tr ng-repeat="row in tableData | filter:searchText">&ndash;&gt;
-                        <td ng-repeat="cell in row">{{cell}}</td>
-                    </tr>
-                    </tbody>
-                </table>
-        -->
-
-                <table st-table="tableData" class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th><a href="" ng-click="clickHeader('title');">Title</a></th>
-                        <th><a href="" ng-click="clickHeader('uri');">URI</a></th>
-                        <th><a href="" ng-click="clickHeader('type');">Type</a></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField">
-                        <td>{{row.title}}</td>
-                        <td>{{row.uri}}</td>
-                        <td>{{row.type}}</td>
-                    </tr>
-                    </tbody>
-                </table>
+            <bookmarks-table></bookmarks-table>
 
             </div>
 
