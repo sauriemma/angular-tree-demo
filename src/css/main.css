@@ -1,6 +1,7 @@
-
-.table  {
-    max-height: 100px;
-    padding: 25px;
+table {
+    table-layout:fixed;
 }
 
+table td {
+    word-wrap:break-word;
+}
