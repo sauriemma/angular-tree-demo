@@ -8,12 +8,15 @@
             //$scope.treeOptions = {dirSelectable: false};
 
             $http.get('data/bookmarks.json').success(function(response) {
-                console.log("Get Tree Data:" + response);
+                console.log("Get Tree Data: " + response.children[0].title);
                 $scope.treeData = response.children;
                 $scope.tableData = response.children;
+                $scope.selected = $scope.treeData[0];
+                $scope.expandedNodes = [$scope.treeData[0]];
+                $scope.showSelected($scope.treeData[0]);
             });
 
-            $scope.$on("$destroy",function() {
+            $scope.$on("$destroy", function() {
                 alert("$destroy");
                 //$( window ).off( "resize.Viewport" );
             });
