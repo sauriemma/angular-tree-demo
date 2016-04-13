@@ -13,6 +13,12 @@
     <!-- bower:js -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-messages/angular-messages.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-material-icons/angular-material-icons.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
     <script src="bower_components/angular-tree-control/angular-tree-control.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
@@ -21,10 +27,22 @@
     <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
 
     <script src="src/app.js"></script>
+
     <script src="src/BookmarksController.js"></script>
     <script src="src/BookmarksTableDirective.js"></script>
 
+    <!--
+    <script src="src/bookmarks/BookmarksModule.js"></script>
+    <script src="src/bookmarks/BookmarksController.js"></script>
+    <script src="src/bookmarks/BookmarksTableDirective.js"></script>
+    -->
+
+    <script src="src/controllers/homeCtrl.js"></script>
+    <script src="src/controllers/indexCtrl.js"></script>
+
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="bower_components/angular-material-icons/angular-material-icons.css" />
     <link rel="stylesheet" href="bower_components/angular-tree-control/css/tree-control.css" />
     <!-- endbower -->     
 
@@ -36,37 +54,75 @@
 </head>
 
 <body ng-app="app">
-    
-    <div class="container">
 
+    <!--<div class="container">-->
+<!--
         <div class="page-header">
-            <h1>Bookmarks Viewer<small> (Export your FireFox bookmars and display them here.)</small></h1>
+            <h1>Test App<small> Test Application</small></h1>
         </div>
+-->
+    <div  ng-controller="IndexCtrl">
 
-        <section id="expandedNodes" ng-controller="BookmarksController">
+    <md-toolbar class="md-hue-2">
+        <div class="md-toolbar-tools">
+            <!--
+            <md-button class="md-icon-button" hide-gt-md aria-label="Show Menu">
+                <ng-md-icon icon="{{menuIcon}}" style="fill:white;vertical-align:middle;" ng-click="menuToggle()" hide-gt-sm></ng-md-icon>
+            </md-button>
+           -->
+            <md-button class="md-icon-button" aria-label="Menu" ng-disabled="false" ng-click="menuToggle();">
+                <md-icon md-svg-icon="images/menu.svg"></md-icon>
+            </md-button>
+            <h2>
+                <span>Web Application</span>
+            </h2>
+            <span flex=""></span>
+            <md-button class="md-icon-button" aria-label="Settings">
+                <md-icon md-svg-icon="images/more_vert.svg"></md-icon>
+            </md-button>
+        </div>
+    </md-toolbar>
 
-            <div class="col-md-4">
-            <treecontrol class="tree-classic"
-                         tree-model="treeData"
-                         options="treeOptions"
 
-                         on-selection="showSelected(node, selected, $parentNode, $index, $first, $middle, $last, $odd, $even)"
-                         on-node-toggle="showToggle(node, expanded, $parentNode, $index, $first, $middle, $last, $odd, $even)"
+    <md-sidenav class="site-sidenav md-sidenav-left md-primary md-hue-1"  md-component-id="left">
 
-                    >
-                {{node.title}}
-            </treecontrol>
+        <!--
+        <md-toolbar layout="row" class="md-whiteframe-z1">
+            <div class="md-toolbar-tools">
+                <md-button class="md-icon-button" hide-gt-md aria-label="Show Menu">
+                    <ng-md-icon icon="{{menuIcon}}" style="fill:white;vertical-align:middle;" ng-click="menuToggle()" hide-gt-sm></ng-md-icon>
+                </md-button>
+                <h2 style="color:white;">ANGULAR MATERIAL</h2>
             </div>
+        </md-toolbar>
+        -->
 
-            <div class="col-md-8">
+        <md-list>
+            <!--
+            <md-list-item ng-click="go('home','home');menuToggle();">
+                <i class="material-icons" style="color:white;">home</i> <p style="font-size:18px;color:white;">HOME</p>
+            </md-list-item>
+            <md-divider></md-divider>
+            -->
+            <md-button class="md-icon-button" aria-label="Menu" ng-disabled="false" ng-click="menuToggle();">
+                <md-icon md-svg-icon="images/arrow_back.svg"></md-icon>
+            </md-button>
+            <md-list-item ng-repeat="item in menuItems" ng-click="go(item.path,item.name);menuToggle();">
+                <p style="font-size:16px;color:white;">{{item.name}}</p>
+            </md-list-item>
+        </md-list>
 
-            <bookmarks-table></bookmarks-table>
-
-            </div>
-
-        </section>
-
+    </md-sidenav>
     </div>
+
+    <main  layout="row" flex>
+        <md-content flex id="content">
+            <div class="fade-view" ui-view="">
+            </div>
+        </md-content>
+    </main>
+
+    <!--</div>-->
 
 </body>
 

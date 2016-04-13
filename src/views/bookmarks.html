@@ -1,0 +1,31 @@
+
+    <div class="container">
+
+        <div class="page-header">
+            <h1>Bookmarks Viewer<small> (Export your FireFox bookmars and display them here.)</small></h1>
+        </div>
+
+        <section id="expandedNodes" ng-controller="BookmarksController">
+
+            <div class="col-md-4">
+            <treecontrol class="tree-classic"
+                         tree-model="treeData"
+                         options="treeOptions"
+                         selected-node="selected"
+                         expanded-nodes="expandedNodes"
+                         on-selection="showSelected(node, selected, $parentNode, $index, $first, $middle, $last, $odd, $even)"
+                         on-node-toggle="showToggle(node, expanded, $parentNode, $index, $first, $middle, $last, $odd, $even)"
+                    >
+                {{node.title}}
+            </treecontrol>
+            </div>
+
+            <div class="col-md-8">
+
+            <bookmarks-table></bookmarks-table>
+
+            </div>
+
+        </section>
+
+    </div>

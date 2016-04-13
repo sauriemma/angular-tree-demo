@@ -16,14 +16,13 @@
     "tests"
   ],
   "dependencies": {
+    "angular": "*",
+    "angular-material": "*",
+    "angular-material-icons": "*",
+    "angular-messages": "*",
+    "angular-ui-router": "*",
     "angular-tree-control": "^0.2.23",
     "bootstrap": "^3.3.6",
     "angular-bootstrap": "^1.2.5"
-  },
-  "OLD-dependencies": {
-    "angular": "~1.4.4",
-    "angular-tree-control": "^0.2.23",
-    "bootstrap": "^3.3.6",
-    "angular-ui-bootstrap": "^1.2.5"
   }
 }

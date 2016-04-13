@@ -7,6 +7,15 @@
     AngularJS seed project.
     https://github.com/manuelkiessling/angular-seed-enhanced    
     
+
+## Angular Material Design    
+    
+    https://material.angularjs.org
+    
+    https://www.toptal.com/angular-js/ultra-modern-web-apps-angular-material
+    
+    https://github.com/mattspaulding/angular-material-kitchen-sink
+    
 ## How to submit changes to remote.
 
     Change files.
@@ -56,9 +65,8 @@
 #### Operate on the entire tree
     git add -a
     git commit -a
-
-###  Run inside a subdirectory 
-     git add -u and git add -A
+    git add -u
+    git add -A
 
 ## Miscellaneous links.    
         
@@ -78,3 +86,26 @@
     
     Code Academy
     https://www.codecademy.com/learn/setup
+    
+    Markdown Cheatsheet
+    https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+
+```javascript
+
+function(scope, element, attrs) {  
+  element.on('click', function() {
+    scope.selected = true;
+  });
+  scope.$on('$destroy', function() {
+      element.off(); // deregister all event handlers
+  })''
+}
+
+var cleanup = $scope.$on('someEvent', function() {  
+    $scope.refresh();
+});
+$scope.$on('$destroy', function() {
+    cleanup();
+})
+```
