@@ -21,8 +21,11 @@
     "angular-material-icons": "*",
     "angular-messages": "*",
     "angular-ui-router": "*",
-    "angular-tree-control": "^0.2.23",
-    "bootstrap": "^3.3.6",
-    "angular-bootstrap": "^1.2.5"
+    "angular-tree-control": "*",
+    "bootstrap": "*",
+    "angular-bootstrap": "*"
+  },
+  "resolutions": {
+    "angular": "~1.5.3"
   }
 }
