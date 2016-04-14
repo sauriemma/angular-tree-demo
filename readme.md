@@ -1,13 +1,13 @@
 
-Angular Tree Control Demo
+###Angular Tree Control Demo
 
-The AngularJS tree component
+####The AngularJS tree component
 
 http://ngmodules.org/modules/angular-tree-control
 
 Bookmarks Viewer - Export your FireFox bookmars and display them in an Angular Tree.
 
-Instructions
+###Instructions
 
     (Optional) Install your favorite text editor. Brackets.io atom eclipse.
     Install Node.js for package management
@@ -28,6 +28,6 @@ Instructions
     npm start
     Open a browser and point it at localhost:8080
 
-The UI Team
+####The UI Team
 
     Stephen Auriemma

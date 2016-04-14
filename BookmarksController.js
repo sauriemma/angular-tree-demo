@@ -31,6 +31,19 @@
                 $scope.orderByField = param1;
             }
 
+
+            var windowClick = function () {
+                alert("windowClick");
+            };
+
+            angular.element(window).on('click', windowClick);
+
+            $scope.$on('$destroy', function () {
+                alert("$destroy");
+                angular.element(window).off('click', windowClick);
+            });
+
+
         }
         
         app.controller("BookmarksController", BookmarksController);
