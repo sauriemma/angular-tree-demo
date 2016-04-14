@@ -16,12 +16,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-bower-install": "^1.6.0",
+    "grunt":                "^0.4.5",
+    "grunt-bower-install":  "^1.6.0",
     "grunt-contrib-concat": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-uglify": "^1.0.1",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch":  "^1.0.0",
+    "karma":                "0.12.16",
+    "grunt-karma":          "0.8.3"
   },
   "dependencies": {
     "connect": "^3.4.1",

@@ -1,13 +1,13 @@
 <!doctype html>
 <html>
 <head>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Angular Tree Demo">
     <meta name="author" content="Stephen Auriemma">
-    
+
     <link rel="icon" type="image/ico" href="images/favicon.ico">
-    
+
     <title>Angular Tree Demo</title>
 
     <!-- bower:js -->
@@ -26,27 +26,15 @@
 
     <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
 
-    <script src="src/app.js"></script>
-
-    <script src="src/bookmarks/bookmarksController.js"></script>
-    <script src="src/bookmarks/bookmarksTableDirective.js"></script>
-
-    <!--
-    <script src="src/bookmarks/BookmarksModule.js"></script>
-    <script src="src/bookmarks/bookmarksController.js"></script>
-    <script src="src/bookmarks/bookmarksTableDirective.js"></script>
-    -->
-
-    <script src="src/home/homeCtrl.js"></script>
-    <script src="src/controllers/indexCtrl.js"></script>
+    <script src="dist/angular-tree-demo-1.0.0.min.js"></script>
 
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
     <link rel="stylesheet" href="bower_components/angular-material-icons/angular-material-icons.css" />
     <link rel="stylesheet" href="bower_components/angular-tree-control/css/tree-control.css" />
-    <!-- endbower -->     
+    <!-- endbower -->
 
-    <!-- bootstrap does not process with bower -->    
+    <!-- bootstrap does not process with bower -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
 
     <link rel="stylesheet" href="src/css/main.css" />
@@ -55,13 +43,13 @@
 
 <body ng-app="app">
 
-    <!--<div class="container">-->
+<!--<div class="container">-->
 <!--
         <div class="page-header">
             <h1>Test App<small> Test Application</small></h1>
         </div>
 -->
-    <div  ng-controller="IndexCtrl">
+<div  ng-controller="IndexCtrl">
 
     <md-toolbar class="md-hue-2">
         <div class="md-toolbar-tools">
@@ -113,16 +101,16 @@
         </md-list>
 
     </md-sidenav>
-    </div>
+</div>
 
-    <main  layout="row" flex>
-        <md-content flex id="content">
-            <div class="fade-view" ui-view="">
-            </div>
-        </md-content>
-    </main>
+<main  layout="row" flex>
+    <md-content flex id="content">
+        <div class="fade-view" ui-view="">
+        </div>
+    </md-content>
+</main>
 
-    <!--</div>-->
+<!--</div>-->
 
 </body>
 

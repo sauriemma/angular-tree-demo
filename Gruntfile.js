@@ -23,7 +23,8 @@ module.exports = function(grunt) {
             // Point to the files that should be updated when 
             // you run `grunt bower-install` 
             src: [
-              '*.html',   // .html support... 
+              '*.html',   // .html support...
+              'dist/**/*.html'
               //'app/views/**/*.jade',   // .jade support... 
               //'app/styles/main.scss',  // .scss & .sass support... 
               //'app/config.yml'         // and .yml & .yaml support out of the box! 
@@ -39,24 +40,53 @@ module.exports = function(grunt) {
             ignorePath: '',
             overrides: {}
           }
+        },        
+        meta: {
+          jsFilesForTesting: [
+            'bower_components/jquery/jquery.js',
+            'bower_components/angular/angular.js',
+            'bower_components/angular-route/angular-route.js'
+            //'bower_components/angular-sanitize/angular-sanitize.js',
+            //'bower_components/angular-mocks/angular-mocks.js',
+            //'bower_components/restangular/dist/restangular.js',
+            //'bower_components/underscore/underscore.js',
+            //'bower_components/underscore/underscore.js',
+            //'test/**/*Spec.js'
+          ]
         },
-        'concat': {
-            'dist': {
-                'src': ['src/**/*.js'],
-                'dest': 'dist/<%= package.namelower %>-<%= package.version %>.js'
+        karma: {
+          development: {
+            configFile: 'karma.conf.js',
+            options: {
+              files: [
+                '<%= meta.jsFilesForTesting %>',
+                'source/**/*.js'
+              ],
             }
+          },
         },
-        'uglify': {
-            'options': {
-                'mangle': false
+        jshint: {
+          beforeconcat: ['src/**/*.js'],
+        },
+        concat: {
+            options: {
+                separator: ';',
             },
-            'dist': {
-                'files': {
+            dist: {
+                src: ['src/app.js', 'src/bookmarks/**/*.js', 'src/home/**/*.js', 'src/controllers/**/*.js'],
+                dest: 'dist/<%= package.namelower %>-<%= package.version %>.js'
+            },
+        },
+        uglify: {
+            options: {
+                mangle: false
+            },
+            dist: {
+                files: {
                     'dist/<%= package.namelower %>-<%= package.version %>.min.js': ['dist/<%= package.namelower %>-<%= package.version %>.js']
                 }
             }
-        },
-
+        }
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
@@ -64,6 +94,20 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-bower-install');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-karma');
     grunt.registerTask('default', ['jshint']);
-
+    grunt.registerTask('test', ['karma:development']);
+    grunt.registerTask('build_all',
+    [
+      'jshint',
+      'karma:development',
+      'concat',
+      'uglify'
+    ]);
+    grunt.registerTask('build',
+    [
+        'jshint',
+        'concat',
+        'uglify'
+    ]);
 };

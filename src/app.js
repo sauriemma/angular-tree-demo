@@ -21,21 +21,21 @@ app.config(function ($stateProvider,$urlRouterProvider) {
     $stateProvider.state("bookmarks", {
         url: "/",
         controller: "BookmarksController",
-        templateUrl: "src/views/bookmarks.html"
+        templateUrl: "src/bookmarks/bookmarksView.html"
     });
     $stateProvider.state("home1", {
         url: "/home1",
         controller: "HomeCtrl",
-        templateUrl: "src/views/home1.html"
+        templateUrl: "src/home/home1.html"
     });
     $stateProvider.state("home2", {
         url: "/home2",
         controller: "HomeCtrl",
-        templateUrl: "src/views/home2.html"
+        templateUrl: "src/home/home2.html"
     });
     $stateProvider.state("mem-leak", {
         url: "/mem-leak",
-        controller: "HomeCtrl",
+        //controller: "HomeCtrl",
         templateUrl: "src/views/mem-leak.html"
     });
 
