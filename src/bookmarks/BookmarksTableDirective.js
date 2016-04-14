@@ -1,7 +1,7 @@
 function BookmarksTableDirective () {
     return {
         restrict: "E",
-        templateUrl: "src/partials/BookmarksTable.html"
+        templateUrl: "src/bookmarks/partials/BookmarksTable.html"
     };
 }
 
