@@ -5,8 +5,7 @@ function AnyTableDirective () {
     return {
         templateUrl: "src/partials/AnyTable.html",
         restrict: "E"
-    }
-
+    };
 }
 
 app.directive("AnyTable", AnyTableDirective);

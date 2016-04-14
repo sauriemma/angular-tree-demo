@@ -1,4 +1,3 @@
-
 //var app = angular.module('app', []);
 var app = angular.module("app", [
     'ui.router',
@@ -23,22 +22,22 @@ app.config(function ($stateProvider,$urlRouterProvider) {
         url: "/",
         controller: "BookmarksController",
         templateUrl: "src/views/bookmarks.html"
-    })
+    });
     $stateProvider.state("home1", {
         url: "/home1",
         controller: "HomeCtrl",
         templateUrl: "src/views/home1.html"
-    })
+    });
     $stateProvider.state("home2", {
         url: "/home2",
         controller: "HomeCtrl",
         templateUrl: "src/views/home2.html"
-    })
+    });
     $stateProvider.state("mem-leak", {
         url: "/mem-leak",
         controller: "HomeCtrl",
         templateUrl: "src/views/mem-leak.html"
-    })
+    });
 
 });
 
@@ -57,6 +56,6 @@ app.config(function ($mdThemingProvider) {
             'hue-1': '500', // use shade 100 for the <code>md-hue-1</code> class
             'hue-2': '600', // use shade 600 for the <code>md-hue-2</code> class
             'hue-3': 'A100' // use shade A100 for the <code>md-hue-3</code> class
-        })
+        });
 
 });

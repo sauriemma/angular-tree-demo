@@ -1,10 +1,9 @@
-﻿'use strict';
-app.controller('IndexCtrl', function ($scope, $mdSidenav, $state) {
+﻿app.controller('IndexCtrl', function ($scope, $mdSidenav, $state) {
     $scope.menuItems = [
         { name: 'Bookmarks', path: 'bookmarks' },
         { name: 'MemLeak', path: 'mem-leak' },
         { name: 'Home1', path: 'home1' },
-        { name: 'Home2', path: 'home2' },
+        { name: 'Home2', path: 'home2' }
 
       //{ name: 'autocomplete', path: 'autocomplete' },
       //{ name: 'bottom sheet', path: 'bottomSheet' },
@@ -24,12 +23,12 @@ app.controller('IndexCtrl', function ($scope, $mdSidenav, $state) {
     $scope.go = function (path, title) {
         $state.go(path);
         $scope.title = title;
-    }
+    };
 
     $scope.toggleLeft = function () {
         $mdSidenav('left')
               .toggle();
-    }
+    };
 
     $scope.menuIcon = 'menu';
     $scope.menuToggle = function () {
@@ -43,5 +42,5 @@ app.controller('IndexCtrl', function ($scope, $mdSidenav, $state) {
               .close();
             $scope.menuIcon = 'menu';
         }
-    }
+    };
 });

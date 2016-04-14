@@ -37,7 +37,7 @@
             $scope.clickHeader = function(param1) {
                 console.log("clickAction  " + param1);
                 $scope.orderByField = param1;
-            }
+            };
 
         }
 
