@@ -17,7 +17,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField">
+    <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField" ng-click="showAdvanced(this)">
         <td>{{row.title}}</td>
         <td>{{row.uri}}</td>
         <td>{{row.type}}</td>

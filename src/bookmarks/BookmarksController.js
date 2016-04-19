@@ -2,7 +2,7 @@
         //var app = angular.module('app', []);
         //var app = angular.module("app", ["treeControl", "ui.bootstrap"/*, "template/tabs/tab.html", "template/tabs/tabset.html"*/]);
         
-        function BookmarksController($http, $scope) {
+        function BookmarksController($http, $scope, $mdDialog) {
 
             // Tree Options
             //$scope.treeOptions = {dirSelectable: false};
@@ -37,6 +37,45 @@
             $scope.clickHeader = function(param1) {
                 console.log("clickAction  " + param1);
                 $scope.orderByField = param1;
+            };
+
+            $scope.showAdvanced = function($event) {
+                console.log($event.row.title);
+                $mdDialog.show({
+                    clickOutsideToClose: true,
+                    targetEvent: $event,
+                    scope: $scope,        // use parent scope in template
+                    preserveScope: true,  // do not forget this if use parent scope
+                    // Since GreetingController is instantiated with ControllerAs syntax
+                    // AND we are passing the parent '$scope' to the dialog, we MUST
+                    // use 'vm.<xxx>' in the template markup
+                    template: '<md-dialog>' +
+                    '  <md-subheader>Settings</md-subheader>' +
+
+                    '  <md-dialog-content>' +
+                    '     Hi There {{row}} no title' +
+                    '  </md-dialog-content>' +
+
+                    '  <md-dialog-actions>' +
+                    '    <md-button ng-click="closeDialog()" class="Xmd-primaryX">' +
+                    '      Close Greeting' +
+                    '    </md-button>' +
+                    '  </md-dialog-actions>' +
+
+                    '</md-dialog>',
+                    locals: {
+                        row: 'steve oooo'
+                    },
+                    //controller: function($scope, theScope){
+                    //    $scope.theScope = theScope;
+                    //},
+                    controller: function DialogController($scope, theScope, $mdDialog) {
+                        $scope.theScope = theScope;
+                        $scope.closeDialog = function() {
+                            $mdDialog.hide();
+                        }
+                    }
+                });
             };
 
         }
