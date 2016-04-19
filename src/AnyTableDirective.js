@@ -3,9 +3,12 @@
  */
 function AnyTableDirective () {
     return {
-        templateUrl: "src/partials/AnyTable.html",
+        templateUrl: "src/anyTable.html",
         restrict: "E"
     };
 }
 
-app.directive("AnyTable", AnyTableDirective);
+var directives = angular.module('Bookmarks.directives', [])
+    .directive('anyTable', AnyTableDirective);
+
+//app.directive("anyTable", AnyTableDirective);

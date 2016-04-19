@@ -43,9 +43,9 @@ module.exports = function(grunt) {
         },        
         meta: {
           jsFilesForTesting: [
-            'bower_components/jquery/jquery.js',
-            'bower_components/angular/angular.js',
-            'bower_components/angular-route/angular-route.js'
+            'bower_components/jquery/dist/jquery.js',
+            'bower_components/angular/angular.js'
+            //'bower_components/angular-route/angular-route.js',
             //'bower_components/angular-sanitize/angular-sanitize.js',
             //'bower_components/angular-mocks/angular-mocks.js',
             //'bower_components/restangular/dist/restangular.js',
@@ -57,12 +57,13 @@ module.exports = function(grunt) {
         karma: {
           development: {
             configFile: 'karma.conf.js',
-            options: {
-              files: [
-                '<%= meta.jsFilesForTesting %>',
-                'source/**/*.js'
-              ],
-            }
+            // Get files from karma.conf.js
+            //options: {
+            //  files: [
+            //    '<%= meta.jsFilesForTesting %>',
+            //    'src/**/*.js'
+            //  ],
+            //}
           },
         },
         jshint: {
@@ -97,7 +98,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-karma');
     grunt.registerTask('default', ['jshint']);
     grunt.registerTask('test', ['karma:development']);
-    grunt.registerTask('build_all',
+    grunt.registerTask('build-all',
     [
       'jshint',
       'karma:development',
