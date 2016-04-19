@@ -12,18 +12,18 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "test",
     "tests"
   ],
   "dependencies": {
-    "angular": "*",
+    "angular": "^1.5.5",
     "angular-material": "*",
     "angular-material-icons": "*",
     "angular-messages": "*",
     "angular-ui-router": "*",
     "angular-tree-control": "*",
     "bootstrap": "*",
-    "angular-bootstrap": "*"
+    "angular-bootstrap": "*",
+    "angular-mocks": "^1.5.5"
   },
   "resolutions": {
     "angular": "~1.5.3"

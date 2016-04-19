@@ -1,4 +1,4 @@
-//var app = angular.module('app', []);
+
 var app = angular.module("app", [
     'ui.router',
     'ngMaterial',
@@ -7,11 +7,12 @@ var app = angular.module("app", [
     "treeControl",
     "ui.bootstrap",
 
+    //"reverse",
 
     //'bookmarks',
 
-    "Bookmarks.controllers",
-    "Bookmarks.directives"
+    "BookmarksControllers",
+    "BookmarksDirectives"
 ]);
 
 app.config(function ($stateProvider,$urlRouterProvider) {

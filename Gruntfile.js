@@ -57,12 +57,13 @@ module.exports = function(grunt) {
         karma: {
           development: {
             configFile: 'karma.conf.js',
-            options: {
-              files: [
-                '<%= meta.jsFilesForTesting %>',
-                'src/**/*.js'
-              ],
-            }
+            // Get files from karma.conf.js
+            //options: {
+            //  files: [
+            //    '<%= meta.jsFilesForTesting %>',
+            //    'src/**/*.js'
+            //  ],
+            //}
           },
         },
         jshint: {

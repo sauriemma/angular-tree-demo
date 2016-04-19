@@ -41,7 +41,7 @@
 
         }
 
-        var controllers = angular.module('Bookmarks.controllers', [])
+        var controllers = angular.module('BookmarksControllers', [])
             .controller('BookmarksController',BookmarksController);
         
         //app.controller("BookmarksController", BookmarksController);

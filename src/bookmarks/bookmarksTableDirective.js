@@ -5,10 +5,7 @@ function BookmarksTableDirective () {
     };
 }
 
-//var directives = angular.module('bookmarks', [])
-//    .directive('bookmarksTable', BookmarksTableDirective);
-
-var directives = angular.module('Bookmarks.directives', [])
+var directives = angular.module('BookmarksDirectives', [])
     .directive('bookmarksTable',BookmarksTableDirective);
 
 //app.directive("bookmarksTable", BookmarksTableDirective);
