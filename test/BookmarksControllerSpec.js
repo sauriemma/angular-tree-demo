@@ -30,27 +30,6 @@ describe('BookmarksController', function() {
         // We expect the controller to put the right value onto the scope
         expect(scope.treeData[0].title).toEqual('Bookmarks Menu');
 
-
-        //alert("wtf" + scope.treeData[0].title);
-
-        //expect(scope.treeData[0].title).toEqual('Bookmarks Menu');
-
-
-/*        // Which HTTP requests do we expect to occur, and how do we respond?
-        httpBackend.expectGET('/users').respond('[{"name": "First User"}, {"name": "Second User"}]');
-
-        // Starting the controller
-        controller('ExampleController', {'$scope': scope });
-
-        // Respond to all HTTP requests
-        httpBackend.flush();
-
-        // Trigger the AngularJS digest cycle in order to resolve all promises
-        scope.$apply();
-
-        // We expect the controller to put the right value onto the scope
-        expect(scope.firstUsername).toEqual('First User');*/
-
     });
 
 });
