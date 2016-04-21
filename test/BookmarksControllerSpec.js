@@ -1,23 +1,23 @@
-describe('BookmarksController', function() {
+describe('BookmarksController', function () {
     var scope, controller, httpBackend, mdDialog;
 
     // Initialization of the AngularJS application before each test case
     beforeEach(module('BookmarksControllers'));
 
     // Injection of dependencies, $http will be mocked with $httpBackend
-    beforeEach(inject(function($rootScope, $controller, $httpBackend) {
+    beforeEach(inject(function ($rootScope, $controller, $httpBackend) {
         scope = $rootScope;
         controller = $controller;
         httpBackend = $httpBackend;
     }));
 
-    it('should query the webservice', function() {
+    it('should query the webservice', function () {
 
         // Which HTTP requests do we expect to occur, and how do we respond?
         httpBackend.expectGET('data/bookmarks.json').respond('{"children": [{"title": "Bookmarks Menu"}]}');
 
         // Starting the controller
-        controller('BookmarksController', {'$scope': scope, '$mdDialog': mdDialog });
+        controller('BookmarksController', {'$scope': scope, '$mdDialog': mdDialog});
 
         // Respond to all HTTP requests
         httpBackend.flush();

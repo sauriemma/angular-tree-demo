@@ -22,9 +22,8 @@
     <script src="bower_components/angular-tree-control/angular-tree-control.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
     <!-- endbower -->
-
-    <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
 
     <script src="dist/angular-tree-demo-1.0.0.min.js"></script>
 
@@ -35,7 +34,7 @@
     <!-- endbower -->
 
     <!-- bootstrap does not process with bower -->
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
 
     <link rel="stylesheet" href="src/css/main.css" />
 
@@ -43,13 +42,7 @@
 
 <body ng-app="app">
 
-<!--<div class="container">-->
-<!--
-        <div class="page-header">
-            <h1>Test App<small> Test Application</small></h1>
-        </div>
--->
-<div  ng-controller="IndexCtrl">
+<div  ng-controller="MenuController">
 
     <md-toolbar class="md-hue-2">
         <div class="md-toolbar-tools">
@@ -87,8 +80,8 @@
 
         <md-list>
             <!--
-            <md-list-item ng-click="go('home','home');menuToggle();">
-                <i class="material-icons" style="color:white;">home</i> <p style="font-size:18px;color:white;">HOME</p>
+            <md-list-item ng-click="go('input','input');menuToggle();">
+                <i class="material-icons" style="color:white;">input</i> <p style="font-size:18px;color:white;">HOME</p>
             </md-list-item>
             <md-divider></md-divider>
             -->
@@ -109,8 +102,6 @@
         </div>
     </md-content>
 </main>
-
-<!--</div>-->
 
 </body>
 

@@ -1,4 +1,3 @@
-
 <!--Search -->
 <div style="padding:20px 0px 60px 0px">
     <span class="col-md-1" style="font-weight:bold">Search</span>
@@ -17,7 +16,8 @@
     </tr>
     </thead>
     <tbody>
-    <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField" ng-click="showAdvanced(this)">
+    <tr ng-repeat="row in tableData | filter:searchText | filter:{'type':'text/x-moz-place'}:true | orderBy:orderByField"
+        ng-click="showAdvanced(this)">
         <td>{{row.title}}</td>
         <td>{{row.uri}}</td>
         <td>{{row.type}}</td>

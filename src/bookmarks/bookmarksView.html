@@ -1,13 +1,14 @@
+<div class="container">
 
-    <div class="container">
+    <div class="page-header">
+        <h1>Bookmarks Viewer
+            <small> (Export your FireFox bookmars and display them here.)</small>
+        </h1>
+    </div>
 
-        <div class="page-header">
-            <h1>Bookmarks Viewer<small> (Export your FireFox bookmars and display them here.)</small></h1>
-        </div>
+    <section id="expandedNodes" ng-controller="BookmarksController">
 
-        <section id="expandedNodes" ng-controller="BookmarksController">
-
-            <div class="col-md-4">
+        <div class="col-md-4">
             <treecontrol class="tree-classic"
                          tree-model="treeData"
                          options="treeOptions"
@@ -18,9 +19,9 @@
                     >
                 {{node.title}}
             </treecontrol>
-            </div>
+        </div>
 
-            <div class="col-md-8">
+        <div class="col-md-8">
 
             <bookmarks-table></bookmarks-table>
             <!--
@@ -28,8 +29,8 @@
             <any-table></any-table>
             -->
 
-            </div>
+        </div>
 
-        </section>
+    </section>
 
-    </div>
+</div>

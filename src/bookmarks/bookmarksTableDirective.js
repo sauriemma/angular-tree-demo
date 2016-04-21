@@ -1,4 +1,4 @@
-function BookmarksTableDirective () {
+function BookmarksTableDirective() {
     return {
         restrict: "E",
         templateUrl: "src/bookmarks/partials/bookmarksTable.html"
@@ -6,6 +6,4 @@ function BookmarksTableDirective () {
 }
 
 var directives = angular.module('BookmarksDirectives', [])
-    .directive('bookmarksTable',BookmarksTableDirective);
-
-//app.directive("bookmarksTable", BookmarksTableDirective);
+    .directive('bookmarksTable', BookmarksTableDirective);

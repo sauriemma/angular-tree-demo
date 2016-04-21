@@ -1,21 +1,21 @@
 <!--Table dynamic set tableData -->
 AnyTable
-        <table>
-            <thead>
-            <tr>
-                <!--<th ng-repeat="(header, value) in tableData">{{header}}</th>-->;
-                <th ng-repeat="(header, value) in tableData">
-                    <!--<a href="" ng-click="orderByField='{{header}}'; reverseSort = !reverseSort">{{header}}</a>-->;
-                    <a href="" ng-click="clickHeader(this.header);">{{header}}</a>
-                </th>
+<table>
+    <thead>
+    <tr>
+        <!--<th ng-repeat="(header, value) in tableData">{{header}}</th>-->;
+        <th ng-repeat="(header, value) in tableData">
+            <!--<a href="" ng-click="orderByField='{{header}}'; reverseSort = !reverseSort">{{header}}</a>-->;
+            <a href="" ng-click="clickHeader(this.header);">{{header}}</a>
+        </th>
 
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField">
-            <!--<tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField:reverseSort">-->;
-            <!--<tr ng-repeat="row in tableData | filter:searchText">-->;
-                <td ng-repeat="cell in row">{{cell}}</td>
-            </tr>
-            </tbody>
-        </table>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField">
+        <!--<tr ng-repeat="row in tableData | filter:searchText | orderBy:orderByField:reverseSort">-->;
+        <!--<tr ng-repeat="row in tableData | filter:searchText">-->;
+        <td ng-repeat="cell in row">{{cell}}</td>
+    </tr>
+    </tbody>
+</table>

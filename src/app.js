@@ -1,24 +1,15 @@
-
 var app = angular.module("app", [
     'ui.router',
+    "ui.bootstrap",
     'ngMaterial',
     'ngMessages',  // used to validate input
-
     "treeControl",
-    "ui.bootstrap",
-
-    //"reverse",
-
-    //'bookmarks',
-
-    //"ModalDemoCtrl",
-    "ui.bootstrap.demo",
-
+    "ModalControllers",
     "BookmarksControllers",
     "BookmarksDirectives"
 ]);
 
-app.config(function ($stateProvider,$urlRouterProvider) {
+app.config(function ($stateProvider, $urlRouterProvider) {
 
     $urlRouterProvider.otherwise('/');
 
@@ -27,24 +18,24 @@ app.config(function ($stateProvider,$urlRouterProvider) {
         controller: "BookmarksController",
         templateUrl: "src/bookmarks/bookmarksView.html"
     });
-    $stateProvider.state("home1", {
-        url: "/home1",
-        controller: "HomeCtrl",
-        templateUrl: "src/home/home1.html"
+    $stateProvider.state("input1", {
+        url: "/input1",
+        controller: "InputController",
+        templateUrl: "src/input/input1.html"
     });
-    $stateProvider.state("home2", {
-        url: "/home2",
-        controller: "HomeCtrl",
-        templateUrl: "src/home/home2.html"
+    $stateProvider.state("input2", {
+        url: "/input2",
+        controller: "InputController",
+        templateUrl: "src/input/input2.html"
     });
     $stateProvider.state("mem-leak", {
         url: "/mem-leak",
-        //controller: "HomeCtrl",
-        templateUrl: "src/views/mem-leak.html"
+        //controller: "InputController",
+        templateUrl: "src/mem-leak/mem-leak.html"
     });
     $stateProvider.state("modal", {
         url: "/modal",
-        controller: "ModalDemoCtrl",
+        controller: "ModalController",
         templateUrl: "src/modal/modal.html"
     });
 
