@@ -1,5 +1,5 @@
 describe('BookmarksController', function() {
-    var scope, controller, httpBackend;
+    var scope, controller, httpBackend, mdDialog;
 
     // Initialization of the AngularJS application before each test case
     beforeEach(module('BookmarksControllers'));
@@ -17,7 +17,7 @@ describe('BookmarksController', function() {
         httpBackend.expectGET('data/bookmarks.json').respond('{"children": [{"title": "Bookmarks Menu"}]}');
 
         // Starting the controller
-        controller('BookmarksController', {'$scope': scope });
+        controller('BookmarksController', {'$scope': scope, '$mdDialog': mdDialog });
 
         // Respond to all HTTP requests
         httpBackend.flush();

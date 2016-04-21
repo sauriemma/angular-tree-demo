@@ -43,7 +43,7 @@
                 console.log($event.row.title);
                 $mdDialog.show({
                     clickOutsideToClose: true,
-                    targetEvent: $event,
+                    //targetEvent: $event,
                     scope: $scope,        // use parent scope in template
                     preserveScope: true,  // do not forget this if use parent scope
                     // Since GreetingController is instantiated with ControllerAs syntax
@@ -53,7 +53,7 @@
                     '  <md-subheader>Settings</md-subheader>' +
 
                     '  <md-dialog-content>' +
-                    '     Hi There {{row}} no title' +
+                    '     Hi There {{vm.row}} no title' +
                     '  </md-dialog-content>' +
 
                     '  <md-dialog-actions>' +
@@ -63,14 +63,14 @@
                     '  </md-dialog-actions>' +
 
                     '</md-dialog>',
-                    locals: {
-                        row: 'steve oooo'
-                    },
+                    //locals: {
+                    //    row: 'steve oooo'
+                    //},
                     //controller: function($scope, theScope){
                     //    $scope.theScope = theScope;
                     //},
-                    controller: function DialogController($scope, theScope, $mdDialog) {
-                        $scope.theScope = theScope;
+                    controller: function DialogController($scope, $mdDialog) {
+                        //$scope.theScope = theScope;
                         $scope.closeDialog = function() {
                             $mdDialog.hide();
                         }

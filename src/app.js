@@ -11,6 +11,9 @@ var app = angular.module("app", [
 
     //'bookmarks',
 
+    //"ModalDemoCtrl",
+    "ui.bootstrap.demo",
+
     "BookmarksControllers",
     "BookmarksDirectives"
 ]);
@@ -38,6 +41,11 @@ app.config(function ($stateProvider,$urlRouterProvider) {
         url: "/mem-leak",
         //controller: "HomeCtrl",
         templateUrl: "src/views/mem-leak.html"
+    });
+    $stateProvider.state("modal", {
+        url: "/modal",
+        controller: "ModalDemoCtrl",
+        templateUrl: "src/modal/modal.html"
     });
 
 });

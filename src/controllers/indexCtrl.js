@@ -3,7 +3,8 @@
         { name: 'Bookmarks', path: 'bookmarks' },
         { name: 'MemLeak', path: 'mem-leak' },
         { name: 'Home1', path: 'home1' },
-        { name: 'Home2', path: 'home2' }
+        { name: 'Home2', path: 'home2' },
+        { name: 'Modal', path: 'modal' }
 
       //{ name: 'autocomplete', path: 'autocomplete' },
       //{ name: 'bottom sheet', path: 'bottomSheet' },
