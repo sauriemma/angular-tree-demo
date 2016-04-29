@@ -40,13 +40,25 @@ app.listen(80);
 
 console.log("Running server.js from: " + __dirname);
 
-
 var express = require('express');
 var app = express();
 
+var logger = function(req, res, next) {
+    var d = new Date();
+    var n = d.toLocaleString();
+    console.log('Time: ' + n);
+    console.log("Request from " + req.ip);
+    console.log(req.path); // '/new'
+    next(); // Passing the request to the next handler in the stack.
+}
+
+app.use(logger);
+
 app.use(express.static(__dirname));
 
-app.listen(8080);
+app.listen(8080, '127.0.0.1');
 
 console.log('Listening on port: ' + 8080);
+
 //console.log('Server running on %s', app.address().port);
+

@@ -9,7 +9,7 @@ angular.module('ModalControllers').controller('ModalController', function ($scop
 
         var modalInstance = $uibModal.open({
             animation: $scope.animationsEnabled,
-            templateUrl: 'myModalContent.html',
+            templateUrl: 'myModalContent.html', // This is the id of script element: id="myModalContent.html"
             controller: 'ModalInstanceController',
             size: size,
             resolve: {
