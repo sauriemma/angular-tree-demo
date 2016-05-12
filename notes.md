@@ -89,23 +89,32 @@
     
     Markdown Cheatsheet
     https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+    
+    Always Trigger The $destroy Event Before Removing Elements In AngularJS Directives
+    https://www.youtube.com/watch?v=PY-c3PIc0bA
+    http://makandracards.com/makandra/31289-how-to-create-giant-memory-leaks-in-angularjs
 
 
 ```javascript
 
-function(scope, element, attrs) {  
-  element.on('click', function() {
+// Remove the jQuery event when angular scope is destroyed.
+function(scope, jqelement, attrs) { 
+  jqelement.on('click', function() {
     scope.selected = true;
   });
   scope.$on('$destroy', function() {
-      element.off(); // deregister all event handlers
+      jqelement.off(); // deregister all event handlers
   })''
 }
 
-var cleanup = $scope.$on('someEvent', function() {  
-    $scope.refresh();
+// Register and get a handle to the listener
+var listener = $scope.$on('someMessage', function () {
+    $log.log("Message received");
 });
-$scope.$on('$destroy', function() {
-    cleanup();
-})
+
+// Unregister - Call de-registration function returned from on listener.
+$scope.$on('$destroy', function () {
+    $log.log("Unregistering listener");
+    listener();  // Call de-registration function.
+});
 ```
